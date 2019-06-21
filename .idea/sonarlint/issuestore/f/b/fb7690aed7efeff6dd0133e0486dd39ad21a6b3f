@@ -1,0 +1,10 @@
+
+ksquid:S00116"NRename this field "MAX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ΔΡφόÿÿÿÿ
+?squid:S11487"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ
+=squid:S1170"!Make this final field static too.(ΔΡφόÿÿÿÿ
+O
+squid:S106O"9Replace this use of System.out or System.err by a logger.(ά›µ’
+Usquid:S11550">Use isEmpty() to check whether the collection is empty or not.(§Ν‚
+T
+squid:S106F"9Replace this use of System.out or System.err by a logger.(Γ®όÿÿÿÿÿ
+?squid:S1148%"#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ

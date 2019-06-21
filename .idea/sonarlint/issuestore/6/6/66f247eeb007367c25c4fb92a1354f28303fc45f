@@ -1,0 +1,13 @@
+
+lsquid:S00100ø"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èò²³ùÿÿÿÿ
+usquid:S2234Á"XParameters to exists have the same names but not the same order as the method arguments.(„Æ³­þÿÿÿÿ
+gsquid:S00100Ý"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê·´ˆ
+Asquid:S00108Y")Either remove or fill this block of code.(ûàöÎ
+Jsquid:S1135±"2Complete the task associated to this TODO comment.(ãµ»Ô
+fsquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Úè¹èùÿÿÿÿ
+isquid:S00116"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÔÌïûÿÿÿÿ
+fsquid:S00100p"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¦ï³
+csquid:S00116"LRename this field "E" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û¶ŸH
+P
+squid:S106Í"9Replace this use of System.out or System.err by a logger.(ñ¸«§
+fsquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Úè¹èùÿÿÿÿ

@@ -1,0 +1,12 @@
+
+Dsquid:S1659"!Declare "end" on a separate line.(ÍôÁÑıÿÿÿÿ8ËÆÍØ´-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(“Ÿ‰³8Ø¶ï×´-
+V
+squid:S106("9Replace this use of System.out or System.err by a logger.(îÔé¬8ËÆÍØ´-
+Dsquid:S16598"!Declare "end" on a separate line.(ÍôÁÑıÿÿÿÿ8ùÚÂØ´-
+Tsquid:S1481^"1Remove this unused "stealingPool" local variable.(¡‹––şÿÿÿÿ8Á——Ù´-
+isquid:CommentedOutCodeLinec"<This block of commented-out lines of code should be removed.(¸¿Š½8Ï¼ÎØ´-
+nsquid:CommentedOutCodeLineh"<This block of commented-out lines of code should be removed.(•èôéşÿÿÿÿ8˜µÏØ´-
+V
+squid:S106H"9Replace this use of System.out or System.err by a logger.(îÔé¬8ì†ËØ´-

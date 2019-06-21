@@ -1,0 +1,29 @@
+
+O
+squid:S106 "9Replace this use of System.out or System.err by a logger.(õŠÄû
+Csquid:S16021",Remove useless curly braces around statement(µ¦Ä
+<squid:S3457 "%String contains no format specifiers.(õŠÄû
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(„û«¡
+?squid:S1148&"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Csquid:S16122",Replace this lambda with a method reference.(®Ì»ê
+]squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+]squid:S2142#"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(‰º»«ûÿÿÿÿ
+<squid:S3457$"%String contains no format specifiers.(‰¢¬œ
+Csquid:S16022",Remove useless curly braces around statement(®Ì»ê
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Õüääùÿÿÿÿ
+O
+squid:S106""9Replace this use of System.out or System.err by a logger.(“›£ğ
+?squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+T
+squid:S106)"9Replace this use of System.out or System.err by a logger.(Æü·Üøÿÿÿÿ
+O
+squid:S106$"9Replace this use of System.out or System.err by a logger.(‰¢¬œ
+Asquid:S3457"%String contains no format specifiers.(Õüääùÿÿÿÿ
+<squid:S3457""%String contains no format specifiers.(“›£ğ
+Asquid:S3457"%String contains no format specifiers.(‰º»«ûÿÿÿÿ
+<squid:S3457"%String contains no format specifiers.(„û«¡
+Csquid:S16121",Replace this lambda with a method reference.(µ¦Ä

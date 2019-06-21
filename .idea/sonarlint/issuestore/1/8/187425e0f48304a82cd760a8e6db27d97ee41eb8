@@ -1,0 +1,4 @@
+
+osquid:S2975"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(ëŞÎøÿÿÿÿ
+dsquid:S1182"HUse super.clone() to create and seed the cloned instance to be returned.(ëŞÎøÿÿÿÿ
+gsquid:S1206("PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã

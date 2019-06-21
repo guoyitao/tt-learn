@@ -1,0 +1,19 @@
+
+]squid:UnusedPrivateMethodL",Remove this unused private "buySync" method.(÷ëİÆıÿÿÿÿ8àÉïÒ´-
+Jsquid:S1602"",Remove useless curly braces around statement(¥—ığ8ÏÔóÑ´-
+Fsquid:S1148`"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8şŞãÒ´-
+psquid:S00117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„Çá‹8ÏÔóÑ´-
+isquid:CommentedOutCodeLine;"<This block of commented-out lines of code should be removed.(‡›¤›8×šîÒ´-
+msquid:UselessImportCheck"=Remove this unused import 'java.util.NoSuchElementException'.(®“ÿéúÿÿÿÿ8öÜÒ´-
+\squid:S1155R">Use isEmpty() to check whether the collection is empty or not.(ÖçŸã8í…€Ò´-
+nsquid:CommentedOutCodeLineX"<This block of commented-out lines of code should be removed.(§âÜèşÿÿÿÿ8î’èÒ´-
+nsquid:CommentedOutCodeLine?"<This block of commented-out lines of code should be removed.(ÛÅÇ¢øÿÿÿÿ8î’èÒ´-
+dsquid:S2142_"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8şŞãÒ´-
+dsquid:S2142E"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8•°İÒ´-
+isquid:CommentedOutCodeLine,"<This block of commented-out lines of code should be removed.(¼ÖÍœ8àÉïÒ´-
+nsquid:CommentedOutCodeLineS"<This block of commented-out lines of code should be removed.(…åñíøÿÿÿÿ8²îÒ´-
+[
+squid:S106/"9Replace this use of System.out or System.err by a logger.(èñà ûÿÿÿÿ8®»Ò´-
+Hsquid:S1481W"+Remove this unused "remove" local variable.(ãÿ­8î’èÒ´-
+Jsquid:S1612"",Replace this lambda with a method reference.(¥—ığ8ÏÔóÑ´-
+Fsquid:S1148F"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8•°İÒ´-

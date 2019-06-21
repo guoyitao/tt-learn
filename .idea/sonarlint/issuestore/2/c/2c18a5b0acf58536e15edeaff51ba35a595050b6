@@ -1,0 +1,12 @@
+
+T
+squid:S106D"9Replace this use of System.out or System.err by a logger.(Ã®üÿÿÿÿÿ
+?squid:S1148 "#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+?squid:S11482"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+=squid:S1170"!Make this final field static too.(ÄÑšöüÿÿÿÿ
+O
+squid:S106M"9Replace this use of System.out or System.err by a logger.(Ü›µ’
+]squid:S21421"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Usquid:S1155.">Use isEmpty() to check whether the collection is empty or not.(¼´ã
+]squid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+ksquid:S00116"NRename this field "MAX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÑšöüÿÿÿÿ

@@ -1,2 +1,2 @@
 # tt-learn
-It's a learn project
+This is a learning project！

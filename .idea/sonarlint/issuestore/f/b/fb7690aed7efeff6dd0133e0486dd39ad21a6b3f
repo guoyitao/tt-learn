@@ -1,10 +1,10 @@
 
-ksquid:S00116"NRename this field "MAX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÑšöüÿÿÿÿ
-?squid:S11487"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-=squid:S1170"!Make this final field static too.(ÄÑšöüÿÿÿÿ
-O
-squid:S106O"9Replace this use of System.out or System.err by a logger.(Ü›µ’
-Usquid:S11550">Use isEmpty() to check whether the collection is empty or not.(§ŒÍ‚
-T
-squid:S106F"9Replace this use of System.out or System.err by a logger.(Ã®üÿÿÿÿÿ
-?squid:S1148%"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Fsquid:S11487"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8é¿§Ãñ-
+\squid:S11550">Use isEmpty() to check whether the collection is empty or not.(§ŒÍ‚8é¿§Ãñ-
+V
+squid:S106O"9Replace this use of System.out or System.err by a logger.(Ü›µ’8é¿§Ãñ-
+rsquid:S00116"NRename this field "MAX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÑšöüÿÿÿÿ8é¿§Ãñ-
+Fsquid:S1148%"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8é¿§Ãñ-
+[
+squid:S106F"9Replace this use of System.out or System.err by a logger.(Ã®üÿÿÿÿÿ8é¿§Ãñ-
+Dsquid:S1170"!Make this final field static too.(ÄÑšöüÿÿÿÿ8é¿§Ãñ-

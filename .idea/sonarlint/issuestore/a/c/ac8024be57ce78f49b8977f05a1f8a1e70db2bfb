@@ -1,5 +1,5 @@
 
+]squid:S34571"AFormat specifiers should be used instead of string concatenation.(¡÷ÂÍûÿÿÿÿ
 T
 squid:S1061"9Replace this use of System.out or System.err by a logger.(¡÷ÂÍûÿÿÿÿ
-]squid:S34571"AFormat specifiers should be used instead of string concatenation.(¡÷ÂÍûÿÿÿÿ
 hsquid:UselessImportCheck"?Remove this unused import 'java.util.concurrent.BlockingQueue'.(÷ÙÑÿÿÿÿÿ

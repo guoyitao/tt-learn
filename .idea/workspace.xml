@@ -4,7 +4,28 @@
     <bookmark url="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/ZaTest.java" line="18" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cbb2f19a-21ff-471b-8b3f-b64f6e4404c7" name="Default Changelist" comment="" />
+    <list default="true" id="cbb2f19a-21ff-471b-8b3f-b64f6e4404c7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/MyLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1dab8ad9891b233df5351bbd7c5baaa5d87897e6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1dab8ad9891b233df5351bbd7c5baaa5d87897e6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c18a5b0acf58536e15edeaff51ba35a595050b6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c18a5b0acf58536e15edeaff51ba35a595050b6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/4958754f66e5e4e001050236f2a5662572d6b8ef" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/4958754f66e5e4e001050236f2a5662572d6b8ef" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66f247eeb007367c25c4fb92a1354f28303fc45f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66f247eeb007367c25c4fb92a1354f28303fc45f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/7922ba89815e51b83e049a971e20737860eff581" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/7922ba89815e51b83e049a971e20737860eff581" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fffb4ec2c43a85cd7dbb0e9d396485d98d58100" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fffb4ec2c43a85cd7dbb0e9d396485d98d58100" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac8024be57ce78f49b8977f05a1f8a1e70db2bfb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac8024be57ce78f49b8977f05a1f8a1e70db2bfb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e84f25e749e9bb42ecf766ea2f1f7a3958626de3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e84f25e749e9bb42ecf766ea2f1f7a3958626de3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb7690aed7efeff6dd0133e0486dd39ad21a6b3f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb7690aed7efeff6dd0133e0486dd39ad21a6b3f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt-learn-se/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-se.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-se.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/tt-learn-se/target/" />
@@ -26,10 +47,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/TestMap.java">
+        <entry file="file://$PROJECT_DIR$/tt-learn-se/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+            <state>
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/Node.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/MyLinkList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="103">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,10 +78,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/TestDelayQueue.java">
+        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="70">
+              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,92 +90,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/MyContinner.java">
+        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="-615">
+              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+                <element signature="e#423#424#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#490#491#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/TestTrasferQueue.java">
+        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/image/arithmetic/MyBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            <state relative-caret-position="135">
+              <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/MyContainer1.java">
+        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/image/arithmetic/GraphMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="80" column="5" selection-start-line="59" selection-start-column="3" selection-end-line="80" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/TestSyncQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/MyContainer2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/TestExecutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/TestFuture.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/TestForkJoinPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
-              <caret line="93" column="57" selection-start-line="93" selection-start-column="57" selection-end-line="93" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="15">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -161,16 +145,12 @@
       <find>if (i&lt;=V.size() &amp;&amp; j&lt;=)</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/javaconcurrencyinpractice/eightThreadPool/TestRejectedExecutionHandler.java" />
-        <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/javaconcurrencyinpractice/eightThreadPool/threadfactory/MyThreadFactory.java" />
-        <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/javaconcurrencyinpractice/eightThreadPool/CreateUnConfigThreadPool.java" />
-        <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/javaconcurrencyinpractice/eightThreadPool/ExtendThreadPoolExecutor.java" />
-        <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/javaconcurrencyinpractice/six/ExecutorCompletionService/DemoExecInvokeAll.java" />
-        <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/javaconcurrencyinpractice/eightThreadPool/demomiti/Pruzzle.java" />
-        <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/javaconcurrencyinpractice/eightThreadPool/demomiti/Puzzle.java" />
         <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/javaconcurrencyinpractice/eightThreadPool/demomiti/SequentialPuzzSolver.java" />
         <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/javaconcurrencyinpractice/eightThreadPool/demomiti/ValueLatch.java" />
         <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/javaconcurrencyinpractice/eightThreadPool/demomiti/ConcurrentPuzzleSolver.java" />
@@ -215,8 +195,21 @@
         <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/TestExecutor.java" />
         <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/TestFuture.java" />
         <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/TestForkJoinPool.java" />
+        <option value="$PROJECT_DIR$/tt-learn-se/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/Node.java" />
+        <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/MyLinkList.java" />
+        <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/TreeNode.java" />
+        <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/Tree.java" />
+        <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinNode.java" />
+        <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java" />
       </list>
     </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -253,9 +246,12 @@
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1087" />
+    <option name="x" value="4" />
+    <option name="width" value="1235" />
+    <option name="height" value="1031" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -263,6 +259,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,61 +276,50 @@
               <item name="tt-learn-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tt-learn" type="462c0819:PsiDirectoryNode" />
               <item name="tt-learn-se" type="462c0819:PsiDirectoryNode" />
-              <item name="tt-learn-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-learn-suanfa" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tt-learn-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tt-learn" type="462c0819:PsiDirectoryNode" />
               <item name="tt-learn-se" type="462c0819:PsiDirectoryNode" />
-              <item name="tt-learn-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-learn-suanfa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tt-learn-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tt-learn" type="462c0819:PsiDirectoryNode" />
               <item name="tt-learn-se" type="462c0819:PsiDirectoryNode" />
-              <item name="tt-learn-thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tt-learn-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tt-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="tt-learn-se" type="462c0819:PsiDirectoryNode" />
-              <item name="tt-learn-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-learn-suanfa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tt-learn-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tt-learn" type="462c0819:PsiDirectoryNode" />
               <item name="tt-learn-se" type="462c0819:PsiDirectoryNode" />
-              <item name="tt-learn-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-learn-suanfa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="guo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tt-learn-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="tt-learn" type="462c0819:PsiDirectoryNode" />
               <item name="tt-learn-se" type="462c0819:PsiDirectoryNode" />
-              <item name="tt-learn-thread" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-learn-suanfa" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="guo" type="462c0819:PsiDirectoryNode" />
-              <item name="mashibing" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -341,13 +327,13 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/image" />
-    <property name="last_opened_file_path" value="D:/book/java并发编程实战/net" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bishe/leyou" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="VisualVMLauncher" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -369,13 +355,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestForkJoinPool">
-    <configuration name="TestExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guo.mashibing.TestExecutor" />
-      <module name="tt-learn-thread" />
+  <component name="RunManager" selected="Application.BinTree">
+    <configuration name="BinNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BinNode" />
+      <module name="tt-learn-suanfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.guo.mashibing.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,12 +369,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestForkJoinPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guo.mashibing.TestForkJoinPool" />
-      <module name="tt-learn-thread" />
+    <configuration name="BinTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.BinTree" />
+      <module name="tt-learn-suanfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.guo.mashibing.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -396,52 +382,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guo.mashibing.TestFuture" />
-      <module name="tt-learn-thread" />
+    <configuration name="BinNode.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tt-learn-suanfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.guo.mashibing.*" />
+          <option name="PATTERN" value="tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tree" />
+      <option name="MAIN_CLASS_NAME" value="tree.BinNode" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSyncQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guo.mashibing.TestSyncQueue" />
-      <module name="tt-learn-thread" />
+    <configuration name="GraphMatrix.testBFS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tt-learn-suanfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.guo.mashibing.*" />
+          <option name="PATTERN" value="image.arithmetic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="image.arithmetic" />
+      <option name="MAIN_CLASS_NAME" value="image.arithmetic.GraphMatrix" />
+      <option name="METHOD_NAME" value="testBFS" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTrasferQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guo.mashibing.TestTrasferQueue" />
-      <module name="tt-learn-thread" />
+    <configuration name="MyLinkList.testadd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tt-learn-suanfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.guo.mashibing.*" />
+          <option name="PATTERN" value="linklist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="linklist" />
+      <option name="MAIN_CLASS_NAME" value="linklist.MyLinkList" />
+      <option name="METHOD_NAME" value="testadd" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-Xmx100m -Xms100m" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.GraphMatrix.testBFS" />
+      <item itemvalue="JUnit.MyLinkList.testadd" />
+      <item itemvalue="JUnit.BinNode.test1" />
+      <item itemvalue="Application.BinNode" />
+      <item itemvalue="Application.BinTree" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestForkJoinPool" />
-        <item itemvalue="Application.TestFuture" />
-        <item itemvalue="Application.TestExecutor" />
-        <item itemvalue="Application.TestSyncQueue" />
-        <item itemvalue="Application.TestTrasferQueue" />
+        <item itemvalue="Application.BinTree" />
+        <item itemvalue="Application.BinNode" />
+        <item itemvalue="JUnit.BinNode.test1" />
+        <item itemvalue="JUnit.MyLinkList.testadd" />
+        <item itemvalue="JUnit.GraphMatrix.testBFS" />
       </list>
     </recent_temporary>
   </component>
@@ -505,43 +509,48 @@
       <workItem from="1560138724521" duration="6731000" />
       <workItem from="1560318012365" duration="13379000" />
       <workItem from="1560498593637" duration="10000" />
+      <workItem from="1575633700121" duration="222000" />
+      <workItem from="1575633960628" duration="483000" />
+      <workItem from="1575711025165" duration="979000" />
+      <workItem from="1576662020204" duration="6825000" />
+      <workItem from="1576675141449" duration="7025000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GraphMatrix_testBFS - 2019.05.05 at 14h 43m 34s.xml">
-      <configuration name="GraphMatrix.testBFS" configurationId="JUnit" />
+    <history-entry file="MyLinkList_testadd - 2019.12.18 at 20h 16m 40s.xml">
+      <configuration name="MyLinkList.testadd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphMatrix_zuiduanlujBFS - 2019.05.05 at 14h 55m 58s.xml">
-      <configuration name="GraphMatrix.zuiduanlujBFS" configurationId="JUnit" />
+    <history-entry file="MyLinkList_testadd - 2019.12.18 at 20h 17m 47s.xml">
+      <configuration name="MyLinkList.testadd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphMatrix_testzuiduanlujBFS - 2019.05.05 at 14h 58m 29s.xml">
-      <configuration name="GraphMatrix.testzuiduanlujBFS" configurationId="JUnit" />
+    <history-entry file="MyLinkList_testadd - 2019.12.18 at 20h 25m 23s.xml">
+      <configuration name="MyLinkList.testadd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphMatrix_testzuiduanlujBFS - 2019.05.05 at 14h 58m 43s.xml">
-      <configuration name="GraphMatrix.testzuiduanlujBFS" configurationId="JUnit" />
+    <history-entry file="MyLinkList_testadd - 2019.12.18 at 20h 29m 34s.xml">
+      <configuration name="MyLinkList.testadd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphMatrix_testzuiduanlujBFS - 2019.05.05 at 15h 00m 08s.xml">
-      <configuration name="GraphMatrix.testzuiduanlujBFS" configurationId="JUnit" />
+    <history-entry file="MyLinkList_testadd - 2019.12.18 at 20h 31m 03s.xml">
+      <configuration name="MyLinkList.testadd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphMatrix_testzuiduanlujBFS - 2019.05.05 at 15h 00m 34s.xml">
-      <configuration name="GraphMatrix.testzuiduanlujBFS" configurationId="JUnit" />
+    <history-entry file="MyLinkList_testadd - 2019.12.18 at 20h 32m 47s.xml">
+      <configuration name="MyLinkList.testadd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphMatrix_testzuiduanlujBFS - 2019.05.05 at 15h 01m 17s.xml">
-      <configuration name="GraphMatrix.testzuiduanlujBFS" configurationId="JUnit" />
+    <history-entry file="MyLinkList_testadd - 2019.12.18 at 20h 33m 44s.xml">
+      <configuration name="MyLinkList.testadd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphMatrix_testzuiduanlujBFS - 2019.05.05 at 15h 05m 03s.xml">
-      <configuration name="GraphMatrix.testzuiduanlujBFS" configurationId="JUnit" />
+    <history-entry file="BinNode_test1 - 2019.12.18 at 21h 54m 00s.xml">
+      <configuration name="BinNode.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphMatrix_testzuiduanlujBFS - 2019.05.05 at 15h 05m 09s.xml">
-      <configuration name="GraphMatrix.testzuiduanlujBFS" configurationId="JUnit" />
+    <history-entry file="BinNode_test1 - 2019.12.18 at 21h 54m 33s.xml">
+      <configuration name="BinNode.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GraphMatrix_testzuiduanlujBFS - 2019.05.05 at 15h 05m 14s.xml">
-      <configuration name="GraphMatrix.testzuiduanlujBFS" configurationId="JUnit" />
+    <history-entry file="BinNode_test1 - 2019.12.18 at 21h 55m 16s.xml">
+      <configuration name="BinNode.test1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226448000" />
+    <option name="totallyTimeSpent" value="241982000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -553,19 +562,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1087" extended-state="0" />
+    <frame x="3" y="0" width="823" height="687" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79589635" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" sideWeight="0.20410368" side_tool="true" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7617801" weight="0.46653143" />
+      <window_info id="Structure" order="1" sideWeight="0.2382199" side_tool="true" weight="0.64489114" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33865815" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49717057" weight="0.28347826" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.45391303" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49555376" weight="0.3234714" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.41632983" visible="true" weight="0.36883628" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32869565" />
@@ -575,14 +584,15 @@
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32869565" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" visible="true" weight="0.3495652" />
-      <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.50282943" side_tool="true" weight="0.26206896" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4987874" weight="0.34879407" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.5836702" side_tool="true" weight="0.24675325" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.32885906" />
       <window_info anchor="bottom" id="SonarLint" order="16" weight="0.32885906" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="17" weight="0.32885906" />
       <window_info anchor="bottom" id="REST Client" order="18" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="19" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="19" weight="0.8337292" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="20" />
+      <window_info anchor="bottom" id="Statistic" order="21" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -596,33 +606,34 @@
       <window_info anchor="right" id="aiXcoder" order="10" side_tool="true" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.2569061" weight="0.24412003" />
-      <window_info id="Structure" order="1" sideWeight="0.7430939" side_tool="true" weight="0.24412003" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7617801" weight="0.46653143" />
+      <window_info id="Structure" order="1" sideWeight="0.2382199" side_tool="true" weight="0.64489114" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33865815" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49717057" visible="true" weight="0.3704348" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.4362069" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49555376" weight="0.3234714" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.41632983" visible="true" weight="0.36883628" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32931036" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32869565" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32885906" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32869565" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.3495652" />
-      <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.50282943" side_tool="true" weight="0.26206896" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4987874" weight="0.34879407" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.5836702" side_tool="true" weight="0.24675325" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.32885906" />
       <window_info anchor="bottom" id="SonarLint" order="16" weight="0.32885906" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="17" weight="0.32885906" />
       <window_info anchor="bottom" id="REST Client" order="18" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="19" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="19" weight="0.8337292" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="20" />
+      <window_info anchor="bottom" id="Statistic" order="21" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -762,8 +773,43 @@
           <properties />
           <option name="timeStamp" value="122" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinNode.java</url>
+          <line>27</line>
+          <properties />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java</url>
+          <line>91</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java</url>
+          <line>94</line>
+          <properties />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="i" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -771,6 +817,41 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>updateHeight(binNode)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>stature(binNode.rightChild)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>stature(binNode.leftChild)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>binNode.parent</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Math.max(stature(binNode.leftChild), stature(binNode.rightChild))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>firstNode</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>i</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>E.get(2).get(1)</expression-string>
         <language-id>JAVA</language-id>
@@ -781,167 +862,9 @@
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>nextNbr(0,firstNbr(v))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nextNbr(0,1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nextNbr(v,1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>v</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>E.get(i).get(j)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>E.get(i).get(j))</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>E.get(i).get(j)) != null</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/AbstractSequentialList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14">
-          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-734">
-          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="116" column="27" lean-forward="true" selection-start-line="116" selection-start-column="27" selection-end-line="116" selection-end-column="27" />
-          <folding>
-            <element signature="e#8248#8249#0" expanded="true" />
-            <element signature="e#8275#8276#0" expanded="true" />
-            <element signature="e#8938#8939#0" expanded="true" />
-            <element signature="e#8965#8966#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4154">
-          <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-325" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/image/arithmetic/GraphMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="227" column="12" selection-start-line="227" selection-start-column="12" selection-end-line="227" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8201#8202#0" expanded="true" />
-            <element signature="e#8264#8265#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/image/bean/Estatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/image/bean/VoidFun.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/image/bean/Edge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/image/bean/Vertex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/image/arithmetic/MyBST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/JetBrains/Toolbox/apps/IDEA-U/ch-0/183.5429.30.vmoptions">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-jdk8/src/main/resources/words.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-jdk8/src/main/java/com/guo/bean/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-jdk8/src/test/java/com/guo/bean/PersonTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -949,28 +872,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/misc/Unsafe.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="305" column="32" selection-start-line="305" selection-start-column="32" selection-end-line="305" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="724">
-          <caret line="197" column="11" selection-start-line="197" selection-start-column="11" selection-end-line="197" selection-end-column="11" />
-          <folding>
-            <element signature="e#5229#5230#0" expanded="true" />
-            <element signature="e#5268#5269#0" expanded="true" />
-            <element signature="e#5294#5295#0" expanded="true" />
-            <element signature="e#5335#5336#0" expanded="true" />
-            <element signature="e#5391#5392#0" expanded="true" />
-            <element signature="e#5448#5449#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/misc/Unsafe.class" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/CountDownLatch.java" />
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/aqslearn/MyLock.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -983,17 +886,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="122" column="22" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
-          <folding>
-            <element signature="e#9117#9118#0" expanded="true" />
-            <element signature="e#9144#9145#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/locks/ReentrantLock.java" />
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/aqslearn/MyLock2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1038,41 +931,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18750">
-          <caret line="1305" selection-start-line="1305" selection-end-line="1305" />
-          <folding>
-            <element signature="e#32644#32645#0" expanded="true" />
-            <element signature="e#32694#32695#0" expanded="true" />
-            <element signature="e#44444#44445#0" expanded="true" />
-            <element signature="e#44501#44502#0" expanded="true" />
-            <element signature="e#45599#45600#0" expanded="true" />
-            <element signature="e#45656#45657#0" expanded="true" />
-            <element signature="e#46422#46423#0" expanded="true" />
-            <element signature="e#46479#46480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Queue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="195" column="6" lean-forward="true" selection-start-line="195" selection-start-column="6" selection-end-line="195" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2265">
-          <caret line="355" column="13" selection-start-line="355" selection-start-column="13" selection-end-line="355" selection-end-column="13" />
-          <folding>
-            <element signature="e#10037#10038#0" expanded="true" />
-            <element signature="e#10084#10085#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Queue.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java" />
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/TicketDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -1083,74 +944,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/DelayQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="103" column="11" selection-start-line="103" selection-start-column="11" selection-end-line="103" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/LinkedTransferQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="1237" column="16" selection-start-line="1237" selection-start-column="16" selection-end-line="1237" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/DelayQueue.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/LinkedTransferQueue.java" />
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/TextExecutors.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/TimeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="381" column="16" selection-start-line="381" selection-start-column="16" selection-end-line="381" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/RunnableFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/FutureTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="263" column="14" selection-start-line="263" selection-start-column="14" selection-end-line="263" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="126" column="48" lean-forward="true" selection-start-line="126" selection-start-column="48" selection-end-line="126" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/ForkJoinPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="730" column="29" lean-forward="true" selection-start-line="730" selection-start-column="29" selection-end-line="730" selection-end-column="29" />
-          <folding>
-            <element signature="e#38366#38367#0" expanded="true" />
-            <element signature="e#38427#38428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/ForkJoinWorkerThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="81" column="47" selection-start-line="81" selection-start-column="35" selection-end-line="81" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/TimeUnit.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/RunnableFuture.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/FutureTask.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/ExecutorService.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/Executors.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/ForkJoinPool.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/ForkJoinWorkerThread.java" />
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/TestMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1171,6 +974,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/MyContinner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/TestTrasferQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1184,6 +1001,36 @@
           <caret line="80" column="5" selection-start-line="59" selection-start-column="3" selection-end-line="80" selection-end-column="5" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-jdk8/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-se.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/TestSyncQueue.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1232,16 +1079,105 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/MyContinner.java">
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state>
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/scoopApp/apps/ojdkbuild8/current/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7800">
+          <caret line="547" column="15" selection-start-line="547" selection-start-column="15" selection-end-line="547" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/image/arithmetic/MyBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/scoopApp/apps/ojdkbuild8/current/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+          <folding>
+            <element signature="e#9005#9006#0" expanded="true" />
+            <element signature="e#9033#9034#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="327" selection-start-line="327" selection-end-line="327" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/image/arithmetic/GraphMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/MyLinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/scoopApp/apps/ojdkbuild8/current/src.zip!/java/util/TreeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-615">
+          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1299,7 +1235,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>tt-learn-jdk8</last-edited>
+          <last-edited>tt-learn-thread</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

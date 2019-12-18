@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbb2f19a-21ff-471b-8b3f-b64f6e4404c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/MyLinkList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1dab8ad9891b233df5351bbd7c5baaa5d87897e6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/d/1dab8ad9891b233df5351bbd7c5baaa5d87897e6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c18a5b0acf58536e15edeaff51ba35a595050b6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c18a5b0acf58536e15edeaff51ba35a595050b6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/4958754f66e5e4e001050236f2a5662572d6b8ef" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/9/4958754f66e5e4e001050236f2a5662572d6b8ef" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66f247eeb007367c25c4fb92a1354f28303fc45f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66f247eeb007367c25c4fb92a1354f28303fc45f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/7922ba89815e51b83e049a971e20737860eff581" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/7922ba89815e51b83e049a971e20737860eff581" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fffb4ec2c43a85cd7dbb0e9d396485d98d58100" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/f/7fffb4ec2c43a85cd7dbb0e9d396485d98d58100" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac8024be57ce78f49b8977f05a1f8a1e70db2bfb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/ac8024be57ce78f49b8977f05a1f8a1e70db2bfb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e84f25e749e9bb42ecf766ea2f1f7a3958626de3" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/8/e84f25e749e9bb42ecf766ea2f1f7a3958626de3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb7690aed7efeff6dd0133e0486dd39ad21a6b3f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb7690aed7efeff6dd0133e0486dd39ad21a6b3f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-se.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-se.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -92,8 +73,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-615">
-              <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="45">
+              <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
               <folding>
                 <element signature="e#335#336#0" expanded="true" />
                 <element signature="e#362#363#0" expanded="true" />
@@ -104,6 +85,11 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/递归二叉树遍历图解.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -146,7 +132,44 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="guoyitao" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="localhostmaster" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -310,6 +333,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="linklist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tt-learn-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tt-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-learn-se" type="462c0819:PsiDirectoryNode" />
+              <item name="tt-learn-suanfa" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -320,6 +353,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -333,7 +367,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="VisualVMLauncher" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -513,8 +547,16 @@
       <workItem from="1575633960628" duration="483000" />
       <workItem from="1575711025165" duration="979000" />
       <workItem from="1576662020204" duration="6825000" />
-      <workItem from="1576675141449" duration="7025000" />
+      <workItem from="1576675141449" duration="7741000" />
     </task>
+    <task id="LOCAL-00001" summary="2019年12月18日23:20:41 在搞二叉树遍历">
+      <created>1576682471333</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576682471333</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -550,7 +592,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241982000" />
+    <option name="totallyTimeSpent" value="242698000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -563,9 +605,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="0" width="823" height="687" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7617801" weight="0.46653143" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7617801" visible="true" weight="0.46535948" />
       <window_info id="Structure" order="1" sideWeight="0.2382199" side_tool="true" weight="0.64489114" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -574,7 +615,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33865815" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49555376" weight="0.3234714" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.41632983" visible="true" weight="0.36883628" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.45359477" visible="true" weight="0.40236688" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32869565" />
@@ -582,7 +623,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32869565" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.54640526" side_tool="true" visible="true" weight="0.40236688" />
       <window_info anchor="bottom" id="JRebel Executor" order="12" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4987874" weight="0.34879407" />
       <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.5836702" side_tool="true" weight="0.24675325" />
@@ -649,6 +690,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2019年12月18日23:20:41 在搞二叉树遍历" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019年12月18日23:20:41 在搞二叉树遍历" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -781,25 +826,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java</url>
-          <line>91</line>
+          <line>93</line>
           <properties />
           <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java</url>
-          <line>90</line>
+          <line>92</line>
           <properties />
           <option name="timeStamp" value="127" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java</url>
-          <line>93</line>
+          <line>95</line>
           <properties />
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java</url>
-          <line>94</line>
+          <line>96</line>
           <properties />
           <option name="timeStamp" value="132" />
         </line-breakpoint>
@@ -865,13 +910,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-jdk8/src/test/java/com/guo/bean/PersonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/misc/Unsafe.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/CountDownLatch.java" />
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/aqslearn/MyLock.java">
@@ -1167,10 +1205,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/递归二叉树遍历图解.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-615">
-          <caret line="25" column="7" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        <state relative-caret-position="45">
+          <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
           <folding>
             <element signature="e#335#336#0" expanded="true" />
             <element signature="e#362#363#0" expanded="true" />

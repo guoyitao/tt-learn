@@ -7,7 +7,7 @@ import org.junit.Test;
 import java.util.*;
 
 /**
- * @Description: 图 数据结构 邻接矩阵
+ * @Description: 图 数据结构 邻接矩阵 TODO
  * i\j A B C
  *  A  X X X
  *  B  X X X
@@ -18,6 +18,7 @@ import java.util.*;
  * @UpdateUser:
  */
 public class GraphMatrix<Tv, Te> {
+
     private LinkedList<Vertex<Tv>> V; //顶点集
     private LinkedList<LinkedList<Edge<Te>>> E;//边集
 
@@ -335,6 +336,16 @@ public class GraphMatrix<Tv, Te> {
         });
     }
 
+    @Test
+    public void testDFS(){
+        GraphMatrix<Integer, Integer> graphMatrix = buildGraph();
+        graphMatrix.DFS(1, new VoidFun() {
+            @Override
+            public void each(Vertex i) {
+                System.out.println(i.getData());
+            }
+        });
+    }
 
 
 }

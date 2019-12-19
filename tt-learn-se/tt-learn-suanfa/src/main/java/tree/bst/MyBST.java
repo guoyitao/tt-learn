@@ -1,4 +1,4 @@
-package image.arithmetic;
+package tree.bst;
 
 import lombok.AllArgsConstructor;
 

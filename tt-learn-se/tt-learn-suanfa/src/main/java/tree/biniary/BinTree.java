@@ -1,4 +1,4 @@
-package tree;
+package tree.biniary;
 
 public class BinTree<T> {
 
@@ -92,10 +92,8 @@ public class BinTree<T> {
         BinTree<Integer> binTree = new BinTree<>(integerBinNode);
         BinNode<Integer> rc1 = binTree.insertAsRC(integerBinNode, 2);
         binTree.insertAsLC(integerBinNode,3);
-
         BinNode<Integer> rc2 = binTree.insertAsLC(rc1, 4);
         binTree.insertAsLC(rc2,5);
-
 
 
 

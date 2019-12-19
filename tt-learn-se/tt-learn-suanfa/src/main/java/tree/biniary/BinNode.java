@@ -1,32 +1,10 @@
 package tree.biniary;
 
-public class BinNode<T> {
-    public BinNode parent;
-    public BinNode leftChild;
-    public BinNode rightChild;
-
-    public T data;
-
-    public int height;
-
+public class BinNode<T> extends tree.AbstarctTreeNode<T> {
 
 
     public BinNode(BinNode parent, T data) {
-        this.parent = parent;
-        this.data = data;
-    }
-
-    //O(n)
-    public int size() {
-        int s = 1;
-        if (leftChild!= null){
-            s += leftChild.size();
-        }
-
-        if (rightChild!= null){
-            s += rightChild.size();
-        }
-        return s;
+        super(parent, data);
     }
 
     //最为左孩子插入行节点O(1)
@@ -38,25 +16,6 @@ public class BinNode<T> {
     public BinNode<T> insertAsRC(T t){
         rightChild = new BinNode<T>(this,t);
         return rightChild;
-    }
-
-    public boolean hasRChild(){
-        if (rightChild == null){
-            return false;
-        }
-        return true;
-    }
-
-    public boolean hasLChild(){
-        if (leftChild == null){
-            return false;
-        }
-        return true;
-    }
-
-    public T visit(){
-        System.out.println(this.toString());
-        return this.data;
     }
 
     @Override

@@ -9,8 +9,6 @@ import lombok.AllArgsConstructor;
  *     单调性：BST的中序遍历序列，必然单调非降
  *
  * }
- *
- *
  * @Description:
  * @Author: guo
  * @CreateDate: 2019/5/5
@@ -44,13 +42,6 @@ public class MyBST {
             return super.equals(obj);
         }
 
-
-        public boolean isNotequals(Object obj) {
-            if (obj instanceof Entry){
-                return !this.key.equals(((Entry) obj).key);
-            }
-            return super.equals(obj);
-        }
     }
 
 

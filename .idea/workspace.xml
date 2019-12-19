@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbb2f19a-21ff-471b-8b3f-b64f6e4404c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/187425e0f48304a82cd760a8e6db27d97ee41eb8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/187425e0f48304a82cd760a8e6db27d97ee41eb8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34ba57adfa2f70f042a8898990f4d5a1401ef019" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34ba57adfa2f70f042a8898990f4d5a1401ef019" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66f247eeb007367c25c4fb92a1354f28303fc45f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66f247eeb007367c25c4fb92a1354f28303fc45f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/9645f02ef51252c2d4a6c2c1dbb25155b51872f7" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/6/9645f02ef51252c2d4a6c2c1dbb25155b51872f7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -71,11 +75,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="1125">
               <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
@@ -182,7 +196,6 @@
         <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/ZaTest.java" />
         <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-thread/pom.xml" />
         <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-jdk8/pom.xml" />
-        <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/pom.xml" />
         <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/image/Estatus.java" />
         <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/image/Edge.java" />
         <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/image/Vertex.java" />
@@ -221,6 +234,7 @@
         <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/Tree.java" />
         <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinNode.java" />
         <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java" />
+        <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/pom.xml" />
       </list>
     </option>
   </component>
@@ -265,8 +279,7 @@
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
-    <option name="y" value="24" />
+    <option name="x" value="6" />
     <option name="width" value="1335" />
     <option name="height" value="1032" />
   </component>
@@ -545,6 +558,7 @@
       <workItem from="1575711025165" duration="979000" />
       <workItem from="1576662020204" duration="6825000" />
       <workItem from="1576675141449" duration="7741000" />
+      <workItem from="1576688968596" duration="745000" />
     </task>
     <task id="LOCAL-00001" summary="2019年12月18日23:20:41 在搞二叉树遍历">
       <created>1576682471333</created>
@@ -589,7 +603,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242846000" />
+    <option name="totallyTimeSpent" value="243806000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,10 +615,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="16" width="890" height="688" extended-state="0" />
+    <frame x="4" y="0" width="890" height="688" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.73021585" visible="true" weight="0.43870193" />
-      <window_info id="Structure" order="1" sideWeight="0.2382199" side_tool="true" weight="0.64489114" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79330707" visible="true" weight="0.44951922" />
+      <window_info id="Structure" order="1" sideWeight="0.20669292" side_tool="true" weight="0.43870193" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -619,18 +633,18 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32869565" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.54640526" side_tool="true" visible="true" weight="0.40236688" />
-      <window_info anchor="bottom" id="JRebel Executor" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.4987874" weight="0.34879407" />
-      <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.5836702" side_tool="true" weight="0.24675325" />
-      <window_info anchor="bottom" id="Problems" order="15" weight="0.32885906" />
-      <window_info anchor="bottom" id="SonarLint" order="16" weight="0.32885906" />
-      <window_info anchor="bottom" id="MyBatis Sql Log" order="17" weight="0.32885906" />
-      <window_info anchor="bottom" id="REST Client" order="18" />
-      <window_info anchor="bottom" id="Run with VisualVM" order="19" weight="0.8337292" />
-      <window_info anchor="bottom" id="Debug with VisualVM" order="20" />
-      <window_info anchor="bottom" id="Statistic" order="21" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5012019" side_tool="true" weight="0.32677165" />
+      <window_info anchor="bottom" id="JRebel Executor" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4987874" weight="0.34879407" />
+      <window_info anchor="bottom" id="JRebel Console" order="13" sideWeight="0.5012019" side_tool="true" visible="true" weight="0.32677165" />
+      <window_info anchor="bottom" id="Problems" order="14" weight="0.32885906" />
+      <window_info anchor="bottom" id="SonarLint" order="15" weight="0.32885906" />
+      <window_info anchor="bottom" id="MyBatis Sql Log" order="16" weight="0.32885906" />
+      <window_info anchor="bottom" id="REST Client" order="17" sideWeight="0.47716346" weight="0.3280943" />
+      <window_info anchor="bottom" id="Run with VisualVM" order="18" weight="0.8337292" />
+      <window_info anchor="bottom" id="Debug with VisualVM" order="19" />
+      <window_info anchor="bottom" id="Statistic" order="20" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="21" sideWeight="0.49879807" visible="true" weight="0.32677165" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -907,7 +921,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/misc/Unsafe.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/concurrent/CountDownLatch.java" />
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/aqslearn/MyLock.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1188,6 +1201,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/递归二叉树遍历图解.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1208,10 +1228,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/BinTree.java">
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="81" column="17" selection-start-line="81" selection-start-column="17" selection-end-line="81" selection-end-column="17" />
+        <state relative-caret-position="570">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
         </state>
       </provider>
     </entry>

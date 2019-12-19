@@ -9,13 +9,13 @@ public class BinNode<T> extends tree.AbstarctTreeNode<T> {
 
     //最为左孩子插入行节点O(1)
     public BinNode<T> insertAsLC(T t){
-         leftChild = new BinNode<T>(this,t);
-         return leftChild;
+        leftChild = new BinNode<T>(this,t);
+        return (BinNode<T>) leftChild;
     }
     //作为右孩子插入新节点O(1)
     public BinNode<T> insertAsRC(T t){
         rightChild = new BinNode<T>(this,t);
-        return rightChild;
+        return (BinNode<T>) rightChild;
     }
 
     @Override

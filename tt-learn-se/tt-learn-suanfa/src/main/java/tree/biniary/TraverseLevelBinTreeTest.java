@@ -24,10 +24,10 @@ public class TraverseLevelBinTreeTest<T> {
             BinNode<T> poll = queue.removeLast();
             poll.visit();
             if (poll.hasLChild()){
-                queue.addFirst(poll.leftChild); //左孩子入队
+                queue.addFirst((BinNode<T>) poll.leftChild); //左孩子入队
             }
             if (poll.hasRChild()){
-                queue.addFirst(poll.rightChild); //右孩子入队
+                queue.addFirst((BinNode<T>) poll.rightChild); //右孩子入队
             }
 
         }

@@ -1,29 +1,31 @@
 package tree.biniary;
 
 
+import tree.AbstarctTreeNode;
+import tree.AbstractTree;
 
-public class BinTree<T> extends tree.AbstractTree<T> {
+public class BinTree<T> extends AbstractTree<T> {
 
-    public BinTree(BinNode<T> root) {
+    public BinTree(AbstarctTreeNode<T> root) {
         super(root);
     }
 
 
-    @Override
+
     public BinNode<T> insertAsRC(BinNode<T> x, T t){
         size++;
+
         x.insertAsRC(t);
         updateHeightAbove(x);
-        return x.rightChild;
+        return (BinNode<T>) x.rightChild;
     }
 
 
-    @Override
     public BinNode<T> insertAsLC(BinNode<T> x, T t){
         size++;
         x.insertAsLC(t);
         updateHeightAbove(x);
-        return x.leftChild;
+        return (BinNode<T>) x.leftChild;
     }
 
     public static void main(String[] args) {

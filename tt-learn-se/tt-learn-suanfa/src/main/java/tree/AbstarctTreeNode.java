@@ -2,14 +2,14 @@ package tree;
 
 import tree.biniary.BinNode;
 
-public class AbstarctTreeNode<T> {
-    public BinNode parent;
-    public BinNode leftChild;
-    public BinNode rightChild;
+public abstract class AbstarctTreeNode<T> {
+    public AbstarctTreeNode parent;
+    public AbstarctTreeNode leftChild;
+    public AbstarctTreeNode rightChild;
     public T data;
     public int height;
 
-    public AbstarctTreeNode(BinNode parent, T data) {
+    public AbstarctTreeNode(AbstarctTreeNode parent, T data) {
         this.parent = parent;
         this.data = data;
     }

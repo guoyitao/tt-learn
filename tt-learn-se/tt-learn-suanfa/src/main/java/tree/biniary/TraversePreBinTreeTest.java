@@ -13,8 +13,8 @@ public class TraversePreBinTreeTest<T> {
             return;
         }
         x.visit();
-        traverse(x.leftChild); //左
-        traverse(x.rightChild); //右
+        traverse((BinNode<T>) x.leftChild); //左
+        traverse((BinNode<T>) x.rightChild); //右
     }
 
     /*
@@ -30,10 +30,10 @@ public class TraversePreBinTreeTest<T> {
             x = stack.pop();
             x.visit();
             if (x.hasRChild()){
-                stack.push(x.rightChild);  //右先进
+                stack.push((BinNode<T>) x.rightChild);  //右先进
             }
             if (x.hasLChild()){
-                stack.push(x.leftChild);  //左进入
+                stack.push((BinNode<T>) x.leftChild);  //左进入
             }
         }
     }
@@ -60,11 +60,11 @@ public class TraversePreBinTreeTest<T> {
             T visit = x.visit();// 访问当前节点
 
             if (x.hasRChild()){
-                stack.push(x.rightChild); // 右孩子入栈 ，将来会逆序从树的下面往上访问
+                stack.push((BinNode<T>) x.rightChild); // 右孩子入栈 ，将来会逆序从树的下面往上访问
             }
 
             if (x.hasLChild()) {
-                x = x.leftChild;  //沿着左侧下行直到没有
+                x = (BinNode<T>) x.leftChild;  //沿着左侧下行直到没有
             }else{
                 x = null;
             }

@@ -19,9 +19,9 @@ public class TraverseCenterBinTreeTest<T> {
             return;
         }
 
-        traverse(x.leftChild); //左
+        traverse((BinNode<T>) x.leftChild); //左
         T visit = x.visit();
-        traverse(x.rightChild); //右
+        traverse((BinNode<T>) x.rightChild); //右
     }
 
     /*
@@ -41,7 +41,7 @@ public class TraverseCenterBinTreeTest<T> {
             x = stack.pop();//从栈顶也就是 从树下面往上访问
             x.visit();
 
-            x = x.rightChild; //可能为空 在goAlongLeftBranch 的while（）有判空手法
+            x = (BinNode<T>) x.rightChild; //可能为空 在goAlongLeftBranch 的while（）有判空手法
         }
 
     }
@@ -51,7 +51,7 @@ public class TraverseCenterBinTreeTest<T> {
         while (x != null){ //一直走左孩子直到没有左孩子
             stack.push(x); // 左孩子入栈 ，将来会逆序从树的下面往上访问
             if (x.hasLChild()) {
-                x = x.leftChild;
+                x = (BinNode<T>) x.leftChild;
             }else {
                 break;
             }

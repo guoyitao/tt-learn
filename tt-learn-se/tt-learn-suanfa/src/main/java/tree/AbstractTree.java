@@ -49,16 +49,22 @@ public abstract class AbstractTree<T extends Comparable> {
     }
 
     //高度 特殊情况
-    private int stature(AbstarctTreeNode node){
-        if (node == null){
+    /*
+    *   一个节点 h=0
+    *   null h=-1
+    *
+    *
+    * */
+    public int stature(AbstarctTreeNode node){
+        if (node == null ){
             return -1;
         }
-        if (node.parent != null && node.rightChild ==null && node.leftChild == null){
-            return 0;
-        }else if (node.parent == null && node.rightChild ==null && node.leftChild == null){
-            return -1;
-        }
+
+
         return node.height;
 
     }
+
+
+
 }

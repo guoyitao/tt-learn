@@ -166,13 +166,18 @@ public class BSTree<T extends Comparable> extends AbstractBSTree<T> {
         bsTree.insert(6);
         bsTree.insert(58);
         bsTree.insert(53);
-        bsTree.insert(64);
-        bsTree.insert(40);
+        AbstarctTreeNode<Integer> insert64 = bsTree.insert(64);
+        AbstarctTreeNode<Integer> insert40 = bsTree.insert(40);
         bsTree.insert(46);
 
-
-
         print(root);
+
+        int stature = bsTree.stature(root);
+        int stature40 = bsTree.stature(insert40);
+        int stature64 = bsTree.stature(insert64);
+
+
+
         bsTree.remove(36);
         print(root);
         bsTree.remove(53);

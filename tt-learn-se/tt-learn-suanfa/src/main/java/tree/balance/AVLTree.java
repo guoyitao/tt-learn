@@ -16,8 +16,9 @@ import tree.bst.impl.BSTree;
  *      平衡 = |平衡因子计算| <= 1
  *      高度为h的AVL树，至少包含S（h） =  fib(h+3) -1个节点
  *
- *      AVL树刚插入一个节点后失衡节点最多为O(logn)
+ *      AVL树刚插入一个节点后失衡节点最多为O(logn)  肯能引起整体分支失衡
  *      AVL树刚删除一个节点后失衡节点最多为O(1)
+ *              因为-被删除的节点数据被删除节点父节点最短的分支，高度是由最长分支决定的
  * @Author: guo
  * @CreateDate: 2019/12/20
  * @UpdateUser:

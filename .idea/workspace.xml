@@ -6,11 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbb2f19a-21ff-471b-8b3f-b64f6e4404c7" name="Default Changelist" comment="2019年12月18日23:20:41 在搞二叉树遍历">
-      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/balance/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/balance/BalanceBinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/balance/图解zagzag单旋.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/AbstractTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/AbstractTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/impl/BSTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/impl/BSTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/balance/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/balance/AVLTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,8 +44,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/balance/AVLTree.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="235">
-                  <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+                <state relative-caret-position="-80">
+                  <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#491#492#0" expanded="true" />
@@ -343,7 +341,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/image" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bishe/leyou" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/balance" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -353,15 +351,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.guo.bean" />
-    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="tree" />
       <recent name="tree.biniary" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.guo.bean" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\tt-learn\tt-learn-se\tt-learn-suanfa\src\main\java\tree\balance" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tree" />
@@ -532,7 +533,7 @@
       <workItem from="1576675141449" duration="7741000" />
       <workItem from="1576688968596" duration="2266000" />
       <workItem from="1576750939604" duration="5721000" />
-      <workItem from="1576760444552" duration="46858000" />
+      <workItem from="1576760444552" duration="49532000" />
     </task>
     <task id="LOCAL-00001" summary="2019年12月18日23:20:41 在搞二叉树遍历">
       <created>1576682471333</created>
@@ -577,7 +578,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297906000" />
+    <option name="totallyTimeSpent" value="300580000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -589,9 +590,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79330707" visible="true" weight="0.17430703" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79330707" visible="true" weight="0.20469083" />
       <window_info id="Structure" order="1" sideWeight="0.20669292" side_tool="true" weight="0.43870193" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -898,26 +900,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/TestSyncQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/MyContainer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-thread/src/main/java/com/guo/mashibing/TestExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1286,10 +1268,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/balance/图解zagzag单旋.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/balance/单旋 逆时针向左转zagzag.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/balance/AVLTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="-80">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#491#492#0" expanded="true" />

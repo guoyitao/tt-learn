@@ -79,7 +79,6 @@ public class BSTree<T extends Comparable> extends AbstractBSTree<T> {
     }
 
     /**
-     * O(高)
      * @author guoyitao
      * @date 2019/12/20 15:26
      * @params
@@ -99,7 +98,7 @@ public class BSTree<T extends Comparable> extends AbstractBSTree<T> {
     }
 
     /**
-     *
+     *  O(h)
      * @author guoyitao
      * @date 2019/12/20 15:34
      * @params  hot 搜索命中节点的上一个节点 ,也就是x的父节点
@@ -180,6 +179,9 @@ public class BSTree<T extends Comparable> extends AbstractBSTree<T> {
         print(root);
         bsTree.remove(64);
         print(root);
+
+        AbstarctTreeNode<Integer> search = bsTree.search(6);
+
     }
 
     private static void print(BinNode<Integer> root) {

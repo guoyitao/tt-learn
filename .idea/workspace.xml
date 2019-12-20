@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbb2f19a-21ff-471b-8b3f-b64f6e4404c7" name="Default Changelist" comment="2019年12月18日23:20:41 在搞二叉树遍历">
-      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/impl/BSTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/AbstarctTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/AbstarctTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/AbstractTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/AbstractTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/biniary/BinNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/biniary/BinNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/biniary/BinTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/biniary/BinTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/biniary/TraverseCenterBinTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/biniary/TraverseCenterBinTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/biniary/TraverseLevelBinTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/biniary/TraverseLevelBinTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/biniary/TraversePreBinTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/biniary/TraversePreBinTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/AbstractBSTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/AbstractBSTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/impl/BSTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/impl/BSTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,52 +26,20 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5435765">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/impl/BSTree.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="157">
-                  <caret line="181" column="7" selection-start-line="181" selection-start-column="7" selection-end-line="181" selection-end-column="7" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#207#208#0" expanded="true" />
-                    <element signature="e#234#235#0" expanded="true" />
-                    <element signature="e#180#181#0" expanded="true" />
-                    <element signature="e#207#208#0" expanded="true" />
-                    <element signature="e#1761#1762#0" expanded="true" />
-                    <element signature="e#1792#1793#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/biniary/BinNode.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-123">
-                  <caret line="27" selection-start-line="27" selection-end-line="27" />
-                  <folding>
-                    <element signature="e#146#147#0" expanded="true" />
-                    <element signature="e#181#182#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/impl/删除元素情况2  有两个子叶的节点图1.png">
-              <provider selected="true" editor-type-id="images" />
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/impl/BSTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -327,30 +285,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="biniary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tt-learn-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tt-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="tt-learn-se" type="462c0819:PsiDirectoryNode" />
-              <item name="tt-learn-suanfa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
               <item name="bst" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tt-learn-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tt-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="tt-learn-se" type="462c0819:PsiDirectoryNode" />
-              <item name="tt-learn-suanfa" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
-              <item name="bst" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -558,7 +493,7 @@
       <workItem from="1576675141449" duration="7741000" />
       <workItem from="1576688968596" duration="2266000" />
       <workItem from="1576750939604" duration="5721000" />
-      <workItem from="1576760444552" duration="36437000" />
+      <workItem from="1576760444552" duration="39515000" />
     </task>
     <task id="LOCAL-00001" summary="2019年12月18日23:20:41 在搞二叉树遍历">
       <created>1576682471333</created>
@@ -603,7 +538,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="287485000" />
+    <option name="totallyTimeSpent" value="290563000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,7 +553,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.79330707" visible="true" weight="0.17430703" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.79330707" visible="true" weight="0.17430703" />
       <window_info id="Structure" order="1" sideWeight="0.20669292" side_tool="true" weight="0.43870193" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -626,8 +561,8 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.33853006" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49555376" weight="0.44766146" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.45359477" visible="true" weight="0.48663697" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49555376" weight="0.62806237" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.45359477" visible="true" weight="0.38641426" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32869565" />
@@ -844,9 +779,9 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/impl/BSTree.java</url>
-          <line>113</line>
+          <line>182</line>
           <properties />
-          <option name="timeStamp" value="165" />
+          <option name="timeStamp" value="166" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1204,9 +1139,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/impl/删除元素的情况1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/biniary/递归二叉树遍历图解.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1267,22 +1199,22 @@
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/succ说明2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/impl/删除元素情况2  有两个子叶的节点图2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/AbstarctTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/impl/删除元素情况2  有两个子叶的节点图1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/impl/删除元素情况2  有两个子叶的节点图2.png">
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/impl/删除元素的情况1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/biniary/BinNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-123">
+        <state relative-caret-position="-98">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="e#146#147#0" expanded="true" />
@@ -1291,18 +1223,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/impl/删除元素情况2  有两个子叶的节点图1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/bst/impl/BSTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="181" column="7" selection-start-line="181" selection-start-column="7" selection-end-line="181" selection-end-column="7" />
+        <state relative-caret-position="111">
+          <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#180#181#0" expanded="true" />
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#1761#1762#0" expanded="true" />
-            <element signature="e#1792#1793#0" expanded="true" />
           </folding>
         </state>
       </provider>

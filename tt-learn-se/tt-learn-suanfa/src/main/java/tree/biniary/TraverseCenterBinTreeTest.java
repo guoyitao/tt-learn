@@ -1,6 +1,8 @@
 package tree.biniary;
 
 
+import tree.AbstarctTreeNode;
+
 import java.util.Stack;
 
 /**
@@ -9,19 +11,19 @@ import java.util.Stack;
  * @CreateDate: 2019/12/19
  * @UpdateUser:
  */
-public class TraverseCenterBinTreeTest<T> {
+public class TraverseCenterBinTreeTest<T extends Comparable> {
 
 
 
     //中序列，递归遍历 O（n）
-    public  void traverse(BinNode<T> x){
+    public  void traverse(AbstarctTreeNode<T> x){
         if (x== null){
             return;
         }
 
-        traverse((BinNode<T>) x.leftChild); //左
+        traverse( x.leftChild); //左
         T visit = x.visit();
-        traverse((BinNode<T>) x.rightChild); //右
+        traverse( x.rightChild); //右
     }
 
     /*
@@ -32,8 +34,8 @@ public class TraverseCenterBinTreeTest<T> {
      *
      * 中序遍历非递归实现   O（n）
      * */
-    public void travPre_Itr(BinNode<T> x){
-        Stack<BinNode<T>> stack = new Stack<>();
+    public void travPre_Itr(AbstarctTreeNode<T> x){
+        Stack<AbstarctTreeNode<T>> stack = new Stack<>();
 
         while (true){
             goAlongLeftBranch(x,stack); //从当前节点出发，逐批入栈go不访问
@@ -41,13 +43,13 @@ public class TraverseCenterBinTreeTest<T> {
             x = stack.pop();//从栈顶也就是 从树下面往上访问
             x.visit();
 
-            x = (BinNode<T>) x.rightChild; //可能为空 在goAlongLeftBranch 的while（）有判空手法
+            x =  x.rightChild; //可能为空 在goAlongLeftBranch 的while（）有判空手法
         }
 
     }
 
     //stack 的口朝下
-    private void goAlongLeftBranch(BinNode<T> x, Stack<BinNode<T>> stack){
+    private void goAlongLeftBranch(AbstarctTreeNode<T> x, Stack<AbstarctTreeNode<T>> stack){
         while (x != null){ //一直走左孩子直到没有左孩子
             stack.push(x); // 左孩子入栈 ，将来会逆序从树的下面往上访问
             if (x.hasLChild()) {

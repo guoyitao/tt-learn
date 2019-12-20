@@ -1,20 +1,24 @@
 package tree.biniary;
 
-public class BinNode<T> extends tree.AbstarctTreeNode<T> {
+public class BinNode<T extends Comparable> extends tree.AbstarctTreeNode<T> {
 
 
     public BinNode(BinNode parent, T data) {
         super(parent, data);
     }
 
+
+
     //最为左孩子插入行节点O(1)
+    @Override
     public BinNode<T> insertAsLC(T t){
-        leftChild = new BinNode<T>(this,t);
+        this.leftChild = new BinNode<T>(this,t);
         return (BinNode<T>) leftChild;
     }
     //作为右孩子插入新节点O(1)
+    @Override
     public BinNode<T> insertAsRC(T t){
-        rightChild = new BinNode<T>(this,t);
+        this.rightChild = new BinNode<T>(this,t);
         return (BinNode<T>) rightChild;
     }
 
@@ -38,6 +42,7 @@ public class BinNode<T> extends tree.AbstarctTreeNode<T> {
 
         return "BinNode{" + parentResult + ", " + leftChildResult + ", " + rightChildResult + ", data=" + data + ", height=" + height + '}';
     }
+
 
     public static void main(String[] args) {
         BinNode<Integer> root = new BinNode<>(null, 1);

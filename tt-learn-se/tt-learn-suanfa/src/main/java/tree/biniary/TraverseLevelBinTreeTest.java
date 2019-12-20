@@ -1,6 +1,8 @@
 package tree.biniary;
 
 
+import tree.AbstarctTreeNode;
+
 import java.util.LinkedList;
 
 /**
@@ -9,25 +11,25 @@ import java.util.LinkedList;
  * @CreateDate: 2019/12/19
  * @UpdateUser:
  */
-public class TraverseLevelBinTreeTest<T> {
+public class TraverseLevelBinTreeTest<T extends Comparable> {
 
     /*
 
      *
      * 层次遍历非递归实现   O（n）
      * */
-    public void travPre_Itr(BinNode<T> x){
-        LinkedList<BinNode<T>> queue = new LinkedList<>();
+    public void travPre_Itr(AbstarctTreeNode<T> x){
+        LinkedList<AbstarctTreeNode<T>> queue = new LinkedList<>();
 
         queue.addFirst(x); //根节点入队
         while (!queue.isEmpty()){
-            BinNode<T> poll = queue.removeLast();
+            AbstarctTreeNode<T> poll = queue.removeLast();
             poll.visit();
             if (poll.hasLChild()){
-                queue.addFirst((BinNode<T>) poll.leftChild); //左孩子入队
+                queue.addFirst( poll.leftChild); //左孩子入队
             }
             if (poll.hasRChild()){
-                queue.addFirst((BinNode<T>) poll.rightChild); //右孩子入队
+                queue.addFirst( poll.rightChild); //右孩子入队
             }
 
         }

@@ -3,7 +3,7 @@ package tree;
 import tree.biniary.BinNode;
 import tree.biniary.BinTree;
 
-public abstract class AbstractTree<T> {
+public abstract class AbstractTree<T extends Comparable> {
     public int size; //规模
     public AbstarctTreeNode<T> root; //根节点
 

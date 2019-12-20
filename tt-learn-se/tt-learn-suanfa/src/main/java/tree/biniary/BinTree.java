@@ -4,7 +4,7 @@ package tree.biniary;
 import tree.AbstarctTreeNode;
 import tree.AbstractTree;
 
-public class BinTree<T> extends AbstractTree<T> {
+public class BinTree<T extends Comparable> extends AbstractTree<T> {
 
     public BinTree(AbstarctTreeNode<T> root) {
         super(root);
@@ -43,9 +43,9 @@ public class BinTree<T> extends AbstractTree<T> {
 //        System.out.println(integerBinTree.updateHeight(root));
         BinNode<Integer> integerBinNode = new BinNode<>(null, 1);
         BinTree<Integer> binTree = new BinTree<>(integerBinNode);
-        BinNode<Integer> rc1 = binTree.insertAsRC(integerBinNode, 2);
+        BinNode<Integer> rc1 = (BinNode<Integer>) binTree.insertAsRC(integerBinNode, 2);
         binTree.insertAsLC(integerBinNode,3);
-        BinNode<Integer> rc2 = binTree.insertAsLC(rc1, 4);
+        BinNode<Integer> rc2 = (BinNode<Integer>) binTree.insertAsLC(rc1, 4);
         binTree.insertAsLC(rc2,5);
 
 

@@ -1,16 +1,21 @@
 
+nsquid:S00100Ş"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê·´ˆ8ØºìÏñ-
+ssquid:S00100ù"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èò²³ùÿÿÿÿ8ØºìÏñ-
+|squid:S2234Â"XParameters to exists have the same names but not the same order as the method arguments.(„Æ³­şÿÿÿÿ8ØºìÏñ-
+Hsquid:S00108Z")Either remove or fill this block of code.(ûàöÎ8ØºìÏñ-
+Lsquid:S1604Ö"(Make this anonymous inner class a lambda(°õèŸøÿÿÿÿ8Ë‘Òôñ-
+psquid:S00116"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÔÌïûÿÿÿÿ8ØºìÏñ-
 msquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Úè¹èùÿÿÿÿ8ØºìÏñ-
+xsquid:S2293ß"YReplace the type specification in this constructor call with the diamond operator ("<>").(øª·Î8ØºìÏñ-
+Qsquid:S1135²"2Complete the task associated to this TODO comment.(ãµ»Ô8ØºìÏñ-
 msquid:S00119"IRename this generic name to match the regular expression '^[A-Z][0-9]?$'.(Úè¹èùÿÿÿÿ8ØºìÏñ-
-msquid:S00100p"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¦ï³8ØºìÏñ-
-Gsquid:S1604Ê"(Make this anonymous inner class a lambda(ÀË‚•8ØºìÏñ-
+Gsquid:S1604Ë"(Make this anonymous inner class a lambda(ÀË‚•8ØºìÏñ-
+Usquid:S1135
+"2Complete the task associated to this TODO comment.(”Æ¹Èúÿÿÿÿ8Äîéôñ-
 W
-squid:S106Í"9Replace this use of System.out or System.err by a logger.(ñ¸«§8ØºìÏñ-
-Hsquid:S00108Y")Either remove or fill this block of code.(ûàöÎ8ØºìÏñ-
-psquid:S00116"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(öÔÌïûÿÿÿÿ8ØºìÏñ-
-nsquid:S00100İ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ê·´ˆ8ØºìÏñ-
-xsquid:S2293Ÿ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ïãÚ‡8ØºìÏñ-
-jsquid:S00116"LRename this field "E" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û¶ŸH8ØºìÏñ-
-Qsquid:S1135±"2Complete the task associated to this TODO comment.(ãµ»Ô8ØºìÏñ-
-|squid:S2234Á"XParameters to exists have the same names but not the same order as the method arguments.(„Æ³­şÿÿÿÿ8ØºìÏñ-
-xsquid:S2293Ş"YReplace the type specification in this constructor call with the diamond operator ("<>").(øª·Î8ØºìÏñ-
-ssquid:S00100ø"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èò²³ùÿÿÿÿ8ØºìÏñ-
+squid:S106Î"9Replace this use of System.out or System.err by a logger.(ñ¸«§8ØºìÏñ-
+msquid:S00100q"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨¦ï³8ØºìÏñ-
+jsquid:S00116"LRename this field "E" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û¶ŸH8ØºìÏñ-
+xsquid:S2293 "YReplace the type specification in this constructor call with the diamond operator ("<>").(ïãÚ‡8ØºìÏñ-
+W
+squid:S106Ù"9Replace this use of System.out or System.err by a logger.(ñ¸«§8Ë‘Òôñ-

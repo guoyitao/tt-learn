@@ -1,9 +1,11 @@
 package tree.biniary;
 
+import tree.AbstarctTreeNode;
+
 public class BinNode<T extends Comparable> extends tree.AbstarctTreeNode<T> {
 
 
-    public BinNode(BinNode parent, T data) {
+    public BinNode(AbstarctTreeNode parent, T data) {
         super(parent, data);
     }
 

@@ -1,0 +1,14 @@
+
+ƒ"squid:ClassVariableVisibilityCheck	"PMake data a static final constant or non-public and provide accessors if needed.(–ú‚Áøÿÿÿÿ
+dsquid:S11263"AReplace this if-then-else statement by a single return statement.(™±şÿÿÿÿ8¹…È”ò-
+]squid:S1126,"AReplace this if-then-else statement by a single return statement.(Ï¨âıÿÿÿÿ
+Rsquid:EmptyStatementUsageCheckQ"Remove this empty statement.(ôŸìúÿÿÿÿ8ÑÓÆ“ò-
+ˆ"squid:ClassVariableVisibilityCheck"UMake leftChild a static final constant or non-public and provide accessors if needed.(£Ü‚Óùÿÿÿÿ
+‰"squid:ClassVariableVisibilityCheck"VMake rightChild a static final constant or non-public and provide accessors if needed.(Œ ¯úÿÿÿÿ
+€"squid:ClassVariableVisibilityCheck"RMake parent a static final constant or non-public and provide accessors if needed.(ÔçØØ
+_squid:S1126:"AReplace this if-then-else statement by a single return statement.(ë…8Îì²”ò-
+]squid:S1126%"AReplace this if-then-else statement by a single return statement.( ¶µÊıÿÿÿÿ
+€"squid:ClassVariableVisibilityCheck
+"RMake height a static final constant or non-public and provide accessors if needed.(ñ½
+O
+squid:S106U"9Replace this use of System.out or System.err by a logger.(ã©

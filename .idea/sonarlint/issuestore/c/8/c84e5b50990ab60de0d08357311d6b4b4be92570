@@ -1,6 +1,0 @@
-
-fsquid:UselessImportCheck"6Remove this unused import 'javax.swing.tree.TreeNode'.(š­©Òûÿÿÿÿ8ØºìÏñ-
-V
-squid:S106:"9Replace this use of System.out or System.err by a logger.(–Óîë8ØºìÏñ-
-[squid:UselessImportCheck"+Remove this unused import 'org.junit.Test'.(ùøèøÿÿÿÿ8ØºìÏñ-
-Xsquid:UselessImportCheck".Remove this unused import 'java.util.TreeSet'.(½îB8ØºìÏñ-

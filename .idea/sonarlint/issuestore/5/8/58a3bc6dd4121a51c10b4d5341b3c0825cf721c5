@@ -1,0 +1,3 @@
+
+„"squid:ClassVariableVisibilityCheck"OMake key a static final constant or non-public and provide accessors if needed.(Ï‰›‰8¤–Å÷ñ-
+nsquid:S12064"PThis class overrides "equals()" and should therefore also override "hashCode()".(ÜÑã8ØºìÏñ-

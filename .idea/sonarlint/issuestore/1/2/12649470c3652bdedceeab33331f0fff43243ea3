@@ -1,0 +1,12 @@
+
+fsquid:S001001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÃÁãö
+Hsquid:S1481>"*Remove this unused "visit" local variable.(êšÓõ8¿äòñ-
+lsquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(âÂï®şÿÿÿÿ
+T
+squid:S106N"9Replace this use of System.out or System.err by a logger.(›¼¬âşÿÿÿÿ
+nsquid:CommentedOutCodeLine["<This block of commented-out lines of code should be removed.(âº†ãøÿÿÿÿ8·¤ÍŒò-
+lsquid:S11492"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(âÂï®şÿÿÿÿ
+gsquid:S1149<"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(È¯ ®
+isquid:CommentedOutCodeLineY"<This block of commented-out lines of code should be removed.(ƒöˆÜ8·¤ÍŒò-
+fsquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š”’
+[squid:UnusedPrivateMethodM"*Remove this unused private "visit" method.(Ç—ˆ¬ùÿÿÿÿ8Æ¶“øñ-

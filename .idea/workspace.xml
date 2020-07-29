@@ -2,20 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cbb2f19a-21ff-471b-8b3f-b64f6e4404c7" name="Default Changelist" comment="2019年12月18日23:20:41 在搞二叉树遍历">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-hanshunpingsuanfa/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-hanshunpingsuanfa/src/main/java/com/structures/linklist/DoubleLinkedListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-hanshunpingsuanfa/src/main/java/com/structures/linklist/SingleLinkListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-hanshunpingsuanfa/src/main/java/com/structures/queue/ArrayQueueDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-hanshunpingsuanfa/src/main/java/com/structures/sparsearray/Xishushuzu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/digui/BaHuangHou.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/digui/MiGong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/hashtable/HashTableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/Josepfu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/search/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/search/FibonacciSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/search/InsertValueSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/search/SeqSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/sort/MaoPao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/sort/QuckSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/sort/RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/sort/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/sort/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/sort/Snipaste_2020-07-28_17-15-52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/stack/ArrayStackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree2/BinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/图解.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/尚硅谷_韩顺平_Java数据结构和算法【最新版】.pptx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-jdk8/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-jdk8/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/target/classes/META-INF/tt-learn-suanfa.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-thread/target/classes/META-INF/tt-learn-thread.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-hanshunpingsuanfa/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-hanshunpingsuanfa/src/main/java/com/structures/linklist/DoubleLinkedListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/DoubleLinkedListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-hanshunpingsuanfa/src/main/java/com/structures/linklist/SingleLinkListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/SingleLinkListDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-hanshunpingsuanfa/src/main/java/com/structures/queue/ArrayQueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/array/ArrayQueueDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-hanshunpingsuanfa/src/main/java/com/structures/sparsearray/Xishushuzu.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/array/Xishushuzu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-hanshunpingsuanfa/target/classes/META-INF/tt-learn-hanshunpingsuanfa.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/MyLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/MyLinkList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,29 +53,10 @@
         <option value="JUnit4 Test Class" />
         <option value="Singleton" />
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>TaskState.BLOCKED</find>
-      <find>allowCoreThreadTimeOut</find>
-      <find>if (i&lt;=V.size() &amp;&amp; j&lt;=)</find>
-      <find>left</find>
-      <find>visit</find>
-      <find>stack.pop()</find>
-      <find>x.compareTo</find>
-      <find>binNode</find>
-      <find>this.hot</find>
-      <find>succ</find>
-      <find>x</find>
-      <find>64</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>node</replace>
-      <replace>hot()</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -133,6 +131,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -142,7 +142,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/tt-learn-se/tt-learn-hanshunpingsuanfa/src/main/java/com/structures" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/tree/balance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/sort" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -150,7 +150,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -163,23 +163,25 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\code\tt-learn\tt-learn-se\tt-learn-suanfa\src\main\java\tree\balance" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tree" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\code\tt-learn\tt-learn-se\tt-learn-suanfa\src\main\java\sort" />
+      <recent name="F:\code\tt-learn\tt-learn-se\tt-learn-suanfa\src\main\java" />
+      <recent name="F:\code\tt-learn\tt-learn-se\tt-learn-suanfa\src\main\java\tree\balance" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\code\tt-learn\tt-learn-se\tt-learn-suanfa\src\main\java\tree\biniary" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.DoubleLinkedListDemo">
-    <configuration name="ArrayQueueDemo (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.structures.queue.ArrayQueueDemo" />
-      <module name="tt-learn-hanshunpingsuanfa" />
+  <component name="RunManager" selected="应用程序.HashTableDemo">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.BinarySearch" />
+      <module name="tt-learn-suanfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.structures.queue.*" />
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comstructures.ArrayQueueDemo" />
-      <module name="tt-learn-hanshunpingsuanfa" />
+    <configuration name="FibonacciSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.FibonacciSearch" />
+      <module name="tt-learn-suanfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="comstructures.*" />
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,12 +202,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubleLinkedListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.structures.linklist.DoubleLinkedListDemo" />
-      <module name="tt-learn-hanshunpingsuanfa" />
+    <configuration name="HashTableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashtable.HashTableDemo" />
+      <module name="tt-learn-suanfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.structures.linklist.*" />
+          <option name="PATTERN" value="hashtable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,12 +215,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleLinkListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.structures.linklist.SingleLinkListDemo" />
-      <module name="tt-learn-hanshunpingsuanfa" />
+    <configuration name="InsertValueSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.InsertValueSearch" />
+      <module name="tt-learn-suanfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.structures.linklist.*" />
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,12 +228,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Xishushuzu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="comstructures.sparsearray.Xishushuzu" />
-      <module name="tt-learn-hanshunpingsuanfa" />
+    <configuration name="SeqSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.SeqSearch" />
+      <module name="tt-learn-suanfa" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="comstructures.sparsearray.*" />
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,19 +242,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="应用程序.Xishushuzu" />
-      <item itemvalue="应用程序.ArrayQueueDemo" />
-      <item itemvalue="应用程序.ArrayQueueDemo (1)" />
-      <item itemvalue="应用程序.SingleLinkListDemo" />
-      <item itemvalue="应用程序.DoubleLinkedListDemo" />
+      <item itemvalue="应用程序.SeqSearch" />
+      <item itemvalue="应用程序.BinarySearch" />
+      <item itemvalue="应用程序.InsertValueSearch" />
+      <item itemvalue="应用程序.FibonacciSearch" />
+      <item itemvalue="应用程序.HashTableDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.DoubleLinkedListDemo" />
-        <item itemvalue="应用程序.SingleLinkListDemo" />
-        <item itemvalue="应用程序.ArrayQueueDemo (1)" />
-        <item itemvalue="应用程序.ArrayQueueDemo" />
-        <item itemvalue="应用程序.Xishushuzu" />
+        <item itemvalue="应用程序.HashTableDemo" />
+        <item itemvalue="应用程序.FibonacciSearch" />
+        <item itemvalue="应用程序.InsertValueSearch" />
+        <item itemvalue="应用程序.BinarySearch" />
+        <item itemvalue="应用程序.SeqSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +330,16 @@
       <workItem from="1576940082024" duration="2549000" />
       <workItem from="1595335480619" duration="2883000" />
       <workItem from="1595397163454" duration="22842000" />
-      <workItem from="1595568524088" duration="7359000" />
+      <workItem from="1595568524088" duration="9810000" />
+      <workItem from="1595640307805" duration="19948000" />
+      <workItem from="1595739998627" duration="666000" />
+      <workItem from="1595741380393" duration="17395000" />
+      <workItem from="1595814808215" duration="4818000" />
+      <workItem from="1595901618800" duration="6744000" />
+      <workItem from="1595917580983" duration="6581000" />
+      <workItem from="1595926183579" duration="429000" />
+      <workItem from="1595926661486" duration="6707000" />
+      <workItem from="1595991073649" duration="13025000" />
     </task>
     <task id="LOCAL-00001" summary="2019年12月18日23:20:41 在搞二叉树遍历">
       <created>1576682471333</created>
@@ -349,38 +360,74 @@
     <option name="LAST_COMMIT_MESSAGE" value="2019年12月18日23:20:41 在搞二叉树遍历" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="854" y="52" key="#Java" timestamp="1595749058952">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="854" y="52" key="#Java/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595749058952" />
     <state x="229" y="398" width="631" height="276" key="#Notifications" timestamp="1595335536605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="229" y="398" width="631" height="276" key="#Notifications/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595335536605" />
-    <state x="420" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1595575715771">
+    <state x="779" y="433" key="#arr" timestamp="1595906025775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="420" y="236" key="#com.intellij.ide.util.MemberChooser/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595575715771" />
+    <state x="779" y="433" key="#arr/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595906025775" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595926110418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595926110418" />
+    <state x="420" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1596000729437">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="420" y="236" key="#com.intellij.ide.util.MemberChooser/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596000729437" />
+    <state x="867" y="273" key="#xdebugger.XInspectDialog" timestamp="1595906036757">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="867" y="273" key="#xdebugger.XInspectDialog/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595906036757" />
     <state x="269" y="346" key="#xdebugger.evaluate" timestamp="1595574339397">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="269" y="346" key="#xdebugger.evaluate/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595574339397" />
-    <state width="1372" height="407" key="GridCell.Tab.0.bottom" timestamp="1595576094089">
+    <state x="671" y="229" key="#自定义数据视图" timestamp="1595906032764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1372" height="407" key="GridCell.Tab.0.bottom/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595576094089" />
-    <state width="1372" height="407" key="GridCell.Tab.0.center" timestamp="1595576094089">
+    <state x="671" y="229" key="#自定义数据视图/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595906032764" />
+    <state x="279" y="87" key="CommitChangelistDialog2" timestamp="1595640738718">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1372" height="407" key="GridCell.Tab.0.center/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595576094089" />
-    <state width="1372" height="407" key="GridCell.Tab.0.left" timestamp="1595576094088">
+    <state x="279" y="87" key="CommitChangelistDialog2/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595640738718" />
+    <state x="209" y="336" key="FileChooserDialogImpl" timestamp="1596011194316">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1372" height="407" key="GridCell.Tab.0.left/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595576094088" />
-    <state width="1372" height="407" key="GridCell.Tab.0.right" timestamp="1595576094089">
+    <state x="209" y="336" key="FileChooserDialogImpl/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596011194316" />
+    <state width="1877" height="252" key="GridCell.Tab.0.bottom" timestamp="1596000923811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1372" height="407" key="GridCell.Tab.0.right/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595576094089" />
+    <state width="1877" height="252" key="GridCell.Tab.0.bottom/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596000923811" />
+    <state width="1877" height="252" key="GridCell.Tab.0.center" timestamp="1596000923811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="252" key="GridCell.Tab.0.center/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596000923811" />
+    <state width="1877" height="252" key="GridCell.Tab.0.left" timestamp="1596000923811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="252" key="GridCell.Tab.0.left/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596000923811" />
+    <state width="1877" height="252" key="GridCell.Tab.0.right" timestamp="1596000923811">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="252" key="GridCell.Tab.0.right/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596000923811" />
     <state x="722" y="454" key="ReplaceDuplicatesPrompt" timestamp="1595420875691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="722" y="454" key="ReplaceDuplicatesPrompt/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595420875691" />
+    <state x="487" y="175" key="SettingsEditor" timestamp="1595937031440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="487" y="175" key="SettingsEditor/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595937031440" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1595680842680">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595680842680" />
     <state x="515" y="297" key="chooseDestDirectoryDialog" timestamp="1595398663617">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -389,22 +436,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="300" y="177" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595572956870" />
-    <state x="637" y="268" key="extract.method.dialog" timestamp="1595420941282">
+    <state x="-49" y="214" width="1736" height="856" key="dock-window-1" timestamp="1595766600274">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="637" y="268" key="extract.method.dialog/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595420941282" />
-    <state width="300" height="36" key="javadoc.popup.new" timestamp="1595575642695">
+    <state x="-49" y="214" width="1736" height="856" key="dock-window-1/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595766600274" />
+    <state x="637" y="268" key="extract.method.dialog" timestamp="1595756988888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="300" height="36" key="javadoc.popup.new/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595575642695" />
-    <state x="246" y="180" key="new project wizard" timestamp="1595335837246">
+    <state x="637" y="268" key="extract.method.dialog/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595756988888" />
+    <state x="950" y="253" width="597" height="536" key="find.popup" timestamp="1595927849058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="246" y="180" key="new project wizard/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595335837246" />
-    <state x="379" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1595400286208">
+    <state x="950" y="253" width="597" height="536" key="find.popup/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595927849058" />
+    <state width="300" height="36" key="javadoc.popup.new" timestamp="1596000901952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="379" y="229" width="672" height="678" key="search.everywhere.popup/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595400286208" />
+    <state width="300" height="36" key="javadoc.popup.new/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1596000901952" />
+    <state x="246" y="180" key="new project wizard" timestamp="1595904985618">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="246" y="180" key="new project wizard/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595904985618" />
+    <state x="379" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1595995969596">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="379" y="229" width="672" height="678" key="search.everywhere.popup/1920.251.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1595995969596" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -535,33 +590,55 @@
           <option name="timeStamp" value="172" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-hanshunpingsuanfa/src/main/java/com/structures/queue/ArrayQueueDemo.java</url>
+          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/array/ArrayQueueDemo.java</url>
           <line>186</line>
           <option name="timeStamp" value="180" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-hanshunpingsuanfa/src/main/java/com/structures/linklist/SingleLinkListDemo.java</url>
-          <line>187</line>
+          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/SingleLinkListDemo.java</url>
+          <line>191</line>
           <option name="timeStamp" value="185" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-hanshunpingsuanfa/src/main/java/com/structures/linklist/DoubleLinkedListDemo.java</url>
+          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/DoubleLinkedListDemo.java</url>
           <line>156</line>
           <option name="timeStamp" value="188" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-hanshunpingsuanfa/src/main/java/com/structures/linklist/DoubleLinkedListDemo.java</url>
+          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/linklist/DoubleLinkedListDemo.java</url>
           <line>149</line>
           <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/digui/MiGong.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/sort/ShellSort.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="196" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/sort/MergeSort.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/sort/MergeSort.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/tt-learn-se/tt-learn-suanfa/src/main/java/sort/MergeSort.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="200" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
         <watch expression="i" />
-      </configuration>
-      <configuration name="Application">
-        <watch expression="this.hot" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

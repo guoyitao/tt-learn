@@ -10,6 +10,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/tt-learn-se/pom.xml" />
+        <option value="$PROJECT_DIR$/tt-learn-se/tt-learn-hanshunpingsuanfa/pom.xml" />
       </set>
     </option>
   </component>

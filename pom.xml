@@ -12,11 +12,12 @@
         <module>tt-learn-thread</module>
         <module>tt-learn-jdk8</module>
         <module>tt-learn-suanfa</module>
+        <module>tt-learn-netty</module>
     </modules>
 
     <properties>
         <lombok.version>1.16.20</lombok.version>
-        <netty.version>4.1.15.Final</netty.version>
+        <netty.version>4.1.51.Final</netty.version>
         <protobuf-java-util>3.7.0</protobuf-java-util>
         <protobuf-java>3.7.0</protobuf-java>
     </properties>

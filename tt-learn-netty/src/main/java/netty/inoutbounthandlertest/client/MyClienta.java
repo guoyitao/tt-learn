@@ -33,6 +33,7 @@ public class MyClienta {
                                             .sync();
             Channel channel = future.channel();
             System.out.println("-----"+channel.localAddress()+"---------");
+            channel.closeFuture().sync();
 //            Scanner scanner = new Scanner(System.in);
 //            while (scanner.hasNextLine()){
 //                String s = scanner.nextLine();

@@ -1,4 +1,4 @@
-package netty.example1.client;
+package netty.longtimejobexample.client;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;

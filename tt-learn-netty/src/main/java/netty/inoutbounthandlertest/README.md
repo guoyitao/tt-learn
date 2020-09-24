@@ -6,7 +6,7 @@ MessageToByteEncoder 继承于 ChannelInboundHandler
 
 ------
 
-这两个类在pipline里面ChannelInboundHandler是入站，ChannelInboundHandler是出站，可以根据类型判断到底是进还是出，所以顺序不会乱
+这两个类在pipline里面ChannelInboundHandler是入站，ChannelInboundHandler是出站
 
 ------
 

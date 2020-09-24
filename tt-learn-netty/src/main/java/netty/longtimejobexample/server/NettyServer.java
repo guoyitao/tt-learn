@@ -1,4 +1,4 @@
-package netty.example1.server;
+package netty.longtimejobexample.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.*;

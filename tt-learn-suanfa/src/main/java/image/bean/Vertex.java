@@ -1,7 +1,5 @@
 package image.bean;
 
-import lombok.Data;
-
 //顶点
 /*
 * dfTime的作用:

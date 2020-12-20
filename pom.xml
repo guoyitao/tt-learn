@@ -13,6 +13,7 @@
         <module>tt-learn-jdk8</module>
         <module>tt-learn-suanfa</module>
         <module>tt-learn-netty</module>
+        <module>tt-play</module>
     </modules>
 
     <properties>

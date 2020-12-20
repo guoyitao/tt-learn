@@ -88,8 +88,8 @@ public class TraversePreBinTreeTest<T extends Comparable> {
         TraversePreBinTreeTest<Integer> treeTest = new TraversePreBinTreeTest<>();
 //        treeTest.traverse(root);
 //
-//        treeTest.travPre_Itr1(root);
-        treeTest.travPre_Itr2(root);
+        treeTest.travPre_Itr1(root);
+//        treeTest.travPre_Itr2(root);
 
     }
 

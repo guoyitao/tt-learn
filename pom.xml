@@ -14,6 +14,7 @@
         <module>tt-learn-suanfa</module>
         <module>tt-learn-netty</module>
         <module>tt-play</module>
+        <module>tt-learn-kotlin</module>
     </modules>
 
     <properties>
@@ -35,6 +36,7 @@
                 <artifactId>slf4j-api</artifactId>
                 <version>1.7.30</version>
             </dependency>
+
             <dependency>
                 <groupId>org.slf4j</groupId>
                 <artifactId>slf4j-log4j12</artifactId>

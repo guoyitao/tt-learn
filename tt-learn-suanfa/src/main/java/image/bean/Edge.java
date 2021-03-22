@@ -1,6 +1,5 @@
 package image.bean;
 
-import lombok.Data;
 
 
 public class Edge<T> {
@@ -37,5 +36,10 @@ public class Edge<T> {
 
     public void setEstatus(Estatus estatus) {
         this.estatus = estatus;
+    }
+
+    @Override
+    public String toString() {
+        return this.data.toString();
     }
 }

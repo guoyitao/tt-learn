@@ -7,7 +7,7 @@ import org.junit.Test;
 import java.util.*;
 
 /**
- * @Description: 图 数据结构 邻接矩阵 TODO
+ * @Description: 图 数据结构 邻接矩阵 TODO 时间标签实现错误
  * i\j A B C
  *  A  X X X
  *  B  X X X
@@ -325,6 +325,27 @@ public class GraphMatrix<Tv, Te> {
         return graphMatrix;
     }
 
+    public void printGraph(){
+        System.out.print("\t");
+        for (int i = 0; i < V.size(); i++) {
+            System.out.print(V.get(i).getData()+ "\t");
+
+        }
+        System.out.println();
+
+        for (int i = 0; i < V.size(); i++) {
+            System.out.print(V.get(i).getData()+ "\t");
+            for (Edge<Te> integerEdge : E.get(i)) {
+                if (integerEdge != null){
+                    System.out.print(integerEdge.getData() +"\t");
+                }else{
+                    System.out.print("-1" +"\t");
+                }
+            }
+            System.out.println();
+        }
+    }
+
     @Test
     public void testBFS(){
         GraphMatrix<Integer, Integer> graphMatrix = buildGraph();
@@ -346,6 +367,14 @@ public class GraphMatrix<Tv, Te> {
             }
         });
     }
+
+    @Test
+    public void testPrint(){
+        GraphMatrix<Integer, Integer> graphMatrix = buildGraph();
+        graphMatrix.printGraph();
+    }
+
+
 
 
 }

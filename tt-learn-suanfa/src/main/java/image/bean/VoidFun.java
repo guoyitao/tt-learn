@@ -1,7 +1,7 @@
 package image.bean;
 
 @FunctionalInterface
-public interface VoidFun {
+public interface VoidFun<T> {
 
-    void each(Vertex i);
+    void each(Vertex<T> i);
 }

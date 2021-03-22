@@ -94,4 +94,9 @@ public class Vertex<T> {
         this.status = VStatus.UNDISCOVERED;
         this.parent = -1;
     }
+
+    @Override
+    public String toString() {
+        return this.data.toString();
+    }
 }

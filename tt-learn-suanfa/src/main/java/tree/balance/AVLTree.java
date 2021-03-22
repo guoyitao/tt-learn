@@ -23,7 +23,7 @@ import tree.bst.impl.BSTree;
  * @CreateDate: 2019/12/20
  * @UpdateUser:
  */
-public class AVLTree<T extends Comparable> extends BSTree<T> {
+public class AVLTree<T extends Comparable<T>> extends BSTree<T> {
 
     public AVLTree(AbstarctTreeNode<T> root) {
         super(root);
@@ -63,7 +63,7 @@ public class AVLTree<T extends Comparable> extends BSTree<T> {
 
         AbstarctTreeNode<T> xx = x;
 
-        for (AbstarctTreeNode g = x.parent; g != null; g = g.parent) {
+        for (AbstarctTreeNode<T> g = x.parent; g != null; g = g.parent) {
             if (!avlBalanced(g)){ //如果g失去平衡，则通过调整恢复 g必然是所有失衡元素的最低者
 //TODO 旋转
                 break;

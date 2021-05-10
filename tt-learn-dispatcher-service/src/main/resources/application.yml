@@ -1,0 +1,32 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/chx?usessl=flase&useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    username: root
+    password: root
+    hikari:
+      maximum-pool-size: 1
+      pool-name: Hikari_CP
+      idle-timeout: 60000
+      max-lifetime: 60000
+      connection-timeout: 60000
+  rabbitmq:
+    host: 127.0.0.1
+    username: guest
+    password: guest
+    virtual-host: /
+    port: 5672
+    listener:
+      simple:
+        acknowledge-mode: manual #手动ack
+        retry:
+          enabled: true #重试次数
+          max-attempts: 3
+          initial-interval: 2000ms
+logging:
+  level:
+    root: debug

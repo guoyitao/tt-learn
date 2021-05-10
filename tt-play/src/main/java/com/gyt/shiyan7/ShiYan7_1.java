@@ -1,39 +1,64 @@
 package com.gyt.shiyan7;
 
-import java.util.Arrays;
+//模拟ArrayList扩容
+public class ShiYan7_1<T> {
+    private Object[] arr;
+    private int index = 0;
+    private int size = 10;
 
-public class ShiYan7_1 {
-    int[] arr = new int[10];
-    int index = 0;
+    public int size() {
+        return this.size;
+    }
 
-    public void add(int n){
+    public int index(){
+        return this.index;
+    }
+
+
+    public void add(T n){
+
+        if (index >= size){
+            System.out.printf("扩容 arr:[%s] index:[%d]  size:[%d]\n",this.toString(),index, size);
+            //扩容
+            size = size * 2;
+            Object[] newArray = new Object[size];
+            System.arraycopy(arr, 0, newArray, 0, arr.length);
+            arr = newArray;
+        }
         arr[index++] = n;
     }
 
-    public ShiYan7_1(int[] array) {
-        for (int i : array) {
-            add(i);
+    public ShiYan7_1(T[] array) {
+        this.arr = new Object[size];
+        for (T i : array) {
+            this.add(i);
         }
     }
 
     @Override
     public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("[");
         for (int i = 0; i < index; i++) {
-            System.out.println(arr[i]);
+            sb.append(arr[i]);
+            if (i != index -1){
+                sb.append(",");
+            }
         }
-
-        return "ShiYan7_1{" +
-                "arr=" + Arrays.toString(arr) +
-                ", index=" + index +
-                '}';
+        sb.append("]");
+        return sb.toString();
     }
 
     public static void main(String[] args) {
-        int[] array = {5,8,23,45,89,136};
-        ShiYan7_1 shiYan7_1 = new ShiYan7_1(array);
+        Integer[] array = {5,8,23,45,89,136};
+        ShiYan7_1<Integer> shiYan7_1 = new ShiYan7_1<>(array);
 
         shiYan7_1.add(56);
+        System.out.printf("第一次添加56 arr:[%s] index:[%d]  size:[%d]\n",shiYan7_1.toString(),shiYan7_1.index(), shiYan7_1.size());
 
+        for (int i = 0; i < 100; i++) {
+            shiYan7_1.add(i);
+        }
 
         System.out.println(shiYan7_1);
     }

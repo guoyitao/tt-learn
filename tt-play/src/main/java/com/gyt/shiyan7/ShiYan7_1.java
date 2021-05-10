@@ -4,10 +4,10 @@ package com.gyt.shiyan7;
 public class ShiYan7_1<T> {
     private Object[] arr;
     private int index = 0;
-    private int size = 10;
+    private int maxSize = 10;
 
-    public int size() {
-        return this.size;
+    public int maxSize() {
+        return this.maxSize;
     }
 
     public int index(){
@@ -17,11 +17,11 @@ public class ShiYan7_1<T> {
 
     public void add(T n){
 
-        if (index >= size){
-            System.out.printf("扩容 arr:[%s] index:[%d]  size:[%d]\n",this.toString(),index, size);
+        if (index >= maxSize){
+            System.out.printf("扩容 arr:[%s] index:[%d]  size:[%d]\n",this.toString(),index, maxSize);
             //扩容
-            size = size * 2;
-            Object[] newArray = new Object[size];
+            maxSize = maxSize * 2;
+            Object[] newArray = new Object[maxSize];
             System.arraycopy(arr, 0, newArray, 0, arr.length);
             arr = newArray;
         }
@@ -29,7 +29,7 @@ public class ShiYan7_1<T> {
     }
 
     public ShiYan7_1(T[] array) {
-        this.arr = new Object[size];
+        this.arr = new Object[maxSize];
         for (T i : array) {
             this.add(i);
         }
@@ -54,7 +54,7 @@ public class ShiYan7_1<T> {
         ShiYan7_1<Integer> shiYan7_1 = new ShiYan7_1<>(array);
 
         shiYan7_1.add(56);
-        System.out.printf("第一次添加56 arr:[%s] index:[%d]  size:[%d]\n",shiYan7_1.toString(),shiYan7_1.index(), shiYan7_1.size());
+        System.out.printf("第一次添加56 arr:[%s] index:[%d]  size:[%d]\n",shiYan7_1.toString(),shiYan7_1.index(), shiYan7_1.maxSize());
 
         for (int i = 0; i < 100; i++) {
             shiYan7_1.add(i);

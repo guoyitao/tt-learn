@@ -1,0 +1,63 @@
+### 创建文档  "_id": "0nyrX3kBn5c8KqUOHtfe" 类似主键id
+POST http://127.0.0.1:9200/shopping/_doc
+Content-Type: application/json
+
+{
+ "title":"小米手机",
+ "category":"小米",
+ "images":"http://www.gulixueyuan.com/xm.jpg",
+ "price":3999.00
+}
+
+### 创建文档指定id
+POST http://127.0.0.1:9200/shopping/_doc/10086
+Content-Type: application/json
+
+{
+    "title": "华为手机1",
+    "category": "华为",
+    "images": "http://www.gulixueyuan.com/xm.jpg",
+    "price": 39993.00
+}
+
+### 创建文档指定id 方法2
+POST http://127.0.0.1:9200/shopping/_create/10001
+Content-Type: application/json
+
+{
+  "title": "华为手机",
+  "category": "华为",
+  "images": "http://www.gulixueyuan.com/xm.jpg",
+  "price": 39993.00
+}
+
+### 查询文档-主键查询
+GET http://127.0.0.1:9200/shopping/_doc/10086
+Accept: application/json
+
+### 查询文档-全查询
+GET http://127.0.0.1:9200/shopping/_search
+
+### 修改文档-全量修改(put幂等性)
+PUT http://127.0.0.1:9200/shopping/_doc/10086
+Content-Type: application/json
+
+{
+ "title":"华为手机",
+ "category":"华为",
+ "images":"http://www.gulixueyuan.com/hw.jpg",
+ "price":41111999.00
+}
+
+### 修改文档-局部修改(post非幂等性)
+POST  http://127.0.0.1:9200/shopping/_update/10086
+Content-Type: application/json
+
+{
+    "doc": {
+        "title": "国产手机"
+    }
+}
+
+### 删除文档
+DELETE http://127.0.0.1:9200/shopping/_doc/10086

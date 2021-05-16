@@ -1,0 +1,19 @@
+GET   http://localhost:9200/_analyze
+Content-Type: application/json
+
+{
+    "text":"活动在广东省汕头市澄海区溪南镇举行吗"
+    ,"analyzer":"ik_max_word"
+}
+
+###
+PUT http://localhost:9200/shopping
+Content-Type: application/json
+
+{
+  "settings" : {
+    "index" : {
+      "analysis.analyzer.default.type": "ik_max_word"
+    }
+  }
+}

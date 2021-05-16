@@ -15,6 +15,7 @@ public class RabbitmqFanoutConfiguration {
     //faout exchange
     @Bean
     public FanoutExchange fanoutExchange() {
+
         return new FanoutExchange(ORDER_FANOUT_EX, true, false);
     }
 

@@ -1,0 +1,72 @@
+### 1.创建索引
+PUT http://127.0.0.1:9200/user
+
+### 2.映射关系
+PUT  http://127.0.0.1:9200/user/_mapping
+Content-Type: application/json
+
+{
+    "properties": {
+        "name": {
+            "type": "text",
+            "index": true
+        },
+        "sex": {
+            "type": "keyword",
+            "index": true
+        },
+        "tel": {
+            "type": "keyword",
+            "index": false
+        }
+    }
+}
+### 3.查看关系
+GET http://127.0.0.1:9200/user/_mapping
+
+
+### 添加数据
+PUT http://127.0.0.1:9200/user/_create/1
+Content-Type: application/json
+
+{
+    "name": "小米",
+    "sex": "男的",
+    "tel": "1111"
+}
+
+###  //查询结果name有分词效果,证明了映射有效
+GET http://127.0.0.1:9200/user/_search
+Content-Type: application/json
+
+{
+    "query": {
+        "match": {
+            "name": "小"
+        }
+    }
+}
+
+###  //没查出来，因为分词是keyword不可分词，"男的"才可以查出来。
+GET http://127.0.0.1:9200/user/_search
+Content-Type: application/json
+
+{
+  "query": {
+    "match": {
+      "sex": "男"
+    }
+  }
+}
+
+###   //it is not indexed,映射规则中tel不可被索引，不支持查询
+GET http://127.0.0.1:9200/user/_search
+Content-Type: application/json
+
+{
+  "query": {
+    "match": {
+      "tel": "1111"
+    }
+  }
+}

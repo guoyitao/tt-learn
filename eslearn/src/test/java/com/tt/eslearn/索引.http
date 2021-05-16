@@ -1,0 +1,34 @@
+###创建索引
+PUT localhost:9200/shopping
+Accept: application/json
+
+###创建索引 指定分词器
+PUT http://localhost:9200/shopping
+Content-Type: application/json
+
+{
+  "settings" : {
+    "index" : {
+      "analysis.analyzer.default.type": "ik_max_word"
+    }
+  }
+}
+
+
+###索引信息
+GET localhost:9200/shopping
+Accept: application/json
+
+<> 2021-05-12T152223.404.json
+
+###查询全部
+GET localhost:9200/_cat/indices?v
+Accept: application/json
+
+<> 2021-05-12T152220.200.json
+
+###删除索引
+DELETE localhost:9200/shopping
+Accept: application/json
+
+<> 2021-05-12T152219.200.json

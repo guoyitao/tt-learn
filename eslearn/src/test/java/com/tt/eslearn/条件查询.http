@@ -1,0 +1,198 @@
+### 查询索引(url可能乱码)
+GET http://127.0.0.1:9200/shopping/_search?q=category:小米
+
+### 查询索引(请求体)
+GET http://127.0.0.1:9200/shopping/_search
+Content-Type: application/json
+
+{
+    "query": {
+        "match": {
+          "category": "华为"
+        }
+    }
+}
+
+### 全查询
+GET http://127.0.0.1:9200/shopping/_search
+Content-Type: application/json
+
+{
+  "query": {
+    "match_all": {
+
+    }
+  }
+}
+
+### 查询文档-分页查询 "size": 2, //每页的个数   "title" //查询结果仅显示title字段    "order": "asc" //asc升序，desc降序
+GET http://127.0.0.1:9200/shopping/_search
+Content-Type: application/json
+
+{
+    "query": {
+        "match_all": {}
+    },
+    "from": 0,
+    "size": 3,
+    "_source": [
+        "title"
+    ],
+    "sort": {
+        "price": {
+            "order": "asc"
+        }
+    }
+}
+
+### 查询文档-多条件查询 //bool表示条件的意思  //must表示多个条件必须同时成立,[]表示数组
+GET http://127.0.0.1:9200/shopping/_search
+Content-Type: application/json
+
+{
+    "query": {
+        "bool": {
+            "must": [
+                {
+                    "match": {
+                        "category": "小米"
+                    }
+                },
+                {
+                    "match": {
+                        "price": 3999.00
+                    }
+                }
+            ]
+        }
+    }
+}
+
+### 查询文档-多条件查询2   //should表示或者,华为或者小米满足一个就能查出来
+GET http://127.0.0.1:9200/shopping/_search
+Content-Type: application/json
+
+{
+  "query": {
+    "bool": {
+      "should": [
+        {
+          "match": {
+            "category": "小米"
+          }
+        },
+        {
+          "match": {
+            "category": "华为"
+          }
+        }
+      ]
+    }
+  }
+}
+###  查询文档-范围查询  gt大于
+GET http://127.0.0.1:9200/shopping/_search
+Content-Type: application/json
+
+{
+    "query": {
+        "bool": {
+            "should": [
+                {
+                    "match": {
+                        "category": "小米"
+                    }
+                },
+                {
+                    "match": {
+                        "category": "华为"
+                    }
+                }
+            ],
+            "filter": {
+                "range": {
+                    "price": {
+                        "gt": 20000
+                    }
+                }
+            }
+        }
+    }
+}
+
+### 查询文档-全文检索
+#es会将数据文字进行分词拆解操作，并将拆解后的数据保存到倒排索引中。这样即使只使用文字的一部分也能查到数据。
+GET http://127.0.0.1:9200/shopping/_search
+Content-Type: application/json
+#可以查看小米
+#{
+#    "query": {
+#        "match": {
+#            "category": "米"
+#        }
+#    }
+#}
+
+#可以查看小米和华为
+{
+    "query": {
+        "match": {
+            "category": "小华"
+        }
+    }
+}
+
+### 查询文档-完全匹配
+GET http://127.0.0.1:9200/shopping/_search
+Content-Type: application/json
+#只有完全等于小米的才行
+
+{
+  "query": {
+    "match_phrase": {
+      "category": "小米"
+    }
+  }
+}
+
+### 查询文档-高亮查询
+GET http://127.0.0.1:9200/shopping/_search
+Content-Type: application/json
+
+{
+    "query": {
+        "match_phrase": {
+            "category": "小米"
+        }
+    },
+    "highlight": {
+        "fields": {
+            "category": {}
+        }
+    }
+}
+
+### 查询文档-聚合查询
+#"price_group": { //名称，随意取名
+#"terms": { //可选项:分组terms/平均值avg/最大值max/最小值min
+#"field": "price" //(分组)字段
+#"size": 0 //不显示原始数据，只看分组数据
+GET http://127.0.0.1:9200/shopping/_search
+Content-Type: application/json
+
+{
+
+  "aggs": {
+    "price_group": {
+      "terms": {
+        "field": "price"
+      }
+    },
+    "price_avg": {
+      "avg": {
+        "field": "price"
+      }
+    }
+  },
+  "size": 0
+}

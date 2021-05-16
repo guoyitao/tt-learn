@@ -36,8 +36,6 @@ public class CompletableFutureTest {
                 });
 //等待任务3执行结果
         System.out.println(f3.join());
-
-
     }
 
     public static void sleep(int t, TimeUnit u) {

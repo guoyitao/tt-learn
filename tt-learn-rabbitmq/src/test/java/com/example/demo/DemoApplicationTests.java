@@ -46,7 +46,10 @@ class DemoApplicationTests {
 
     @Test
     void testTTLTopicOrder() {
-        ttlTopicOrderService.mkOrder(UUID.randomUUID().toString(),UUID.randomUUID().toString(),1);
+        for (int i = 0; i < 100000; i++) {
+            ttlTopicOrderService.mkOrder(UUID.randomUUID().toString(),UUID.randomUUID().toString(),1);
+        }
+
     }
     @Test
     void testmkTTLMessageOrder() {

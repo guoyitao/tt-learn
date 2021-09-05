@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generator.mapper.BorrowBookMapper">
+
+    <resultMap id="BaseResultMap" type="generator.domain.BorrowBook">
+            <id property="mid" column="mid" jdbcType="INTEGER"/>
+            <result property="sid" column="sid" jdbcType="INTEGER"/>
+            <result property="bid" column="bid" jdbcType="INTEGER"/>
+            <result property="outtime" column="outtime" jdbcType="VARCHAR"/>
+            <result property="uid" column="uid" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        mid,sid,bid,
+        outtime,uid
+    </sql>
+</mapper>

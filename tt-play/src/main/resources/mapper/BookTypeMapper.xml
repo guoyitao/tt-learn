@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generator.mapper.BookTypeMapper">
+
+    <resultMap id="BaseResultMap" type="generator.domain.BookType">
+            <id property="sid" column="sid" jdbcType="INTEGER"/>
+            <result property="sname" column="sname" jdbcType="VARCHAR"/>
+            <result property="smark" column="smark" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        sid,sname,smark
+    </sql>
+</mapper>

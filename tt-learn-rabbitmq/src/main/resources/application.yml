@@ -3,8 +3,8 @@ server:
 
 spring:
   rabbitmq:
-    host: 127.0.0.1
+    host: myserver
     username: guest
-    password: guest
+    password: guoyitao123
     virtual-host: /
     port: 5672

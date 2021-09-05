@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generator.mapper.MajorMapper">
+
+    <resultMap id="BaseResultMap" type="generator.domain.Major">
+            <id property="fid" column="fid" jdbcType="INTEGER"/>
+            <result property="xid" column="xid" jdbcType="INTEGER"/>
+            <result property="fname" column="fname" jdbcType="VARCHAR"/>
+            <result property="fremark" column="fremark" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        fid,xid,fname,
+        fremark
+    </sql>
+</mapper>

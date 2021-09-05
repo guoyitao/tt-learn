@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generator.mapper.BackBookMapper">
+
+    <resultMap id="BaseResultMap" type="generator.domain.BackBook">
+            <id property="hid" column="hid" jdbcType="INTEGER"/>
+            <result property="sid" column="sid" jdbcType="INTEGER"/>
+            <result property="bid" column="bid" jdbcType="INTEGER"/>
+            <result property="sbacktime" column="sbacktime" jdbcType="VARCHAR"/>
+            <result property="uid" column="uid" jdbcType="INTEGER"/>
+            <result property="remark" column="remark" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        hid,sid,bid,
+        sbacktime,uid,remark
+    </sql>
+</mapper>

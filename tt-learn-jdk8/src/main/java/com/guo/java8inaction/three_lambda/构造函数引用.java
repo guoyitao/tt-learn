@@ -33,7 +33,6 @@ public class 构造函数引用 {
         BiFunction<Integer, String, Apple> you2 = Apple::new;
         Apple green = you2.apply(12, "green");
 
-        
 
     }
 

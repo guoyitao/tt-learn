@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generator.mapper.AcademyMapper">
+
+    <resultMap id="BaseResultMap" type="generator.domain.Academy">
+            <id property="xid" column="xid" jdbcType="INTEGER"/>
+            <result property="xname" column="xname" jdbcType="VARCHAR"/>
+            <result property="xremark" column="xremark" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        xid,xname,xremark
+    </sql>
+</mapper>

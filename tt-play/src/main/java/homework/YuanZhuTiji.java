@@ -1,10 +1,10 @@
-package xianyu;
+package homework;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class YuanZhuBiaoMianJi {
+public class YuanZhuTiji {
     static class ActionClick implements ActionListener {
 
         JTextField r;
@@ -62,12 +62,12 @@ public class YuanZhuBiaoMianJi {
         @Override
         public void actionPerformed(ActionEvent e) {
             change();
-            String title = "圆柱的表面积";
+            String title = "圆锥的表面积";
             JFrame frame=new JFrame(title);
-            JPanel jp=new JPanel();    //创建面板
-            double s = (Math.PI * dr*dr *2) + (2*Math.PI* dr * dh);
+            JPanel jp=new JPanel();
+            double s = (Math.PI * dr*dr) * dh * 1/3.0;
 
-            JLabel label2= new JLabel(String.format("r:%f h:%f 的圆柱体积为：", dr,dh));
+            JLabel label2= new JLabel(String.format("r:%f h:%f 的圆锥体积为：", dr,dh));
             jp.add(label2);
             String strS = String.valueOf(s);
             JLabel label3= new JLabel(strS);
@@ -102,11 +102,11 @@ public class YuanZhuBiaoMianJi {
         JLabel clazz2=new JLabel(clazzItem);
 
         JLabel name1=new JLabel("姓名:");    //创建标签
-        String nameStr = "靳博然";
+        String nameStr = "吴文俊";
         JLabel name2=new JLabel(nameStr);
 
         JLabel id=new JLabel("学号:");    //创建标签
-        String idCode = "2019301040114";
+        String idCode = "2019301040130";
         JLabel id2=new JLabel(idCode);
 
         JLabel r=new JLabel("半径:");
@@ -118,7 +118,7 @@ public class YuanZhuBiaoMianJi {
         b.setText("5");
 
         JButton btn1=new JButton("submit");
-        btn1.addActionListener(new YuanZhuBiaoMianJi.ActionClick(a,b));
+        btn1.addActionListener(new ActionClick(a,b));
 
         jp.add(clazz);
         jp.add(clazz2);

@@ -23,7 +23,7 @@ public class RabbitMQTTLConfiguration {
     @Bean
     public Queue ttldirectsmsQueue() {
         HashMap<String, Object> args = new HashMap<>();
-        args.put("x-message-ttl",5000); //过期时间 int类型
+        args.put("x-message-ttl",5000); //过期时间 int类型1
         args.put("x-max-length",5); //超过5条就进入死信队列
 //        args.put("x-max-length-bytes",5);
         args.put("x-dead-letter-exchange",RabbitmqDeadConfigertion.ORDER_DIRECT_EX); //死信队列，过期之后就放这

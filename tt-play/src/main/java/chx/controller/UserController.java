@@ -1,37 +1,45 @@
 package chx.controller;
 
-import chx.domain.User;
-import chx.service.UserService;
-
-import java.util.List;
-import java.util.Scanner;
-
 public class UserController {
 
-    private static UserService userService = new UserService();
+
+//    public static void main(String[] args) {
+//        int num = -23;
+//        char[] numC = new char[100];
+//        int idxC = 0;
+//        int len = 0;
+//        //处理0
+//        if (num == 0){
+//            System.out.println('0');
+//        }
+//        //处理负数
+//        if (num < 0){
+//            numC[idxC++] = '-';
+//            num = -num;
+//        }
+//
+//        //长度
+//        int temp = num;
+//        while (temp != 0){
+//            temp /= 10;
+//            idxC++;
+//        }
+//        len = idxC;
+//        idxC--;
+//
+//        //转字符串
+//        while (num != 0){
+//            numC[idxC--] = (char) (48 + num % 10);
+//            num /= 10;
+//        }
+//
+//        for (int i = 0; i < len; i++) {
+//            System.out.print(numC[i]);
+//        }
+//    }
 
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
-        String line;
-        while (true){
-            System.out.println("请输入");
-            line = in.nextLine();
-            switch (line){
-                case "1":{
-                    System.out.println("查询所有");
-                    List<User> all = userService.findAll();
-                    System.out.println(all);
-                    break;
-                } case "2":{
-                    System.out.println("条件查询请输入条件");
-                    line = in.nextLine();
-                    List<User> users = userService.find(line);
-                    System.out.println(users);
-                    break;
-                } default:{
-                    System.out.println("输入错误");
-                }
-            }
-        }
+
+
     }
 }

@@ -26,6 +26,10 @@
             <artifactId>hutool-all</artifactId>
             <version>5.7.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+        </dependency>
     </dependencies>
 
 

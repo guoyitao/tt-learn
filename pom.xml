@@ -21,7 +21,7 @@
         <lombok.version>1.16.20</lombok.version>
         <netty.version>4.1.51.Final</netty.version>
         <protobuf-java-util>3.7.0</protobuf-java-util>
-        <protobuf-java>3.7.0</protobuf-java>
+        <protobuf-java>3.16.3</protobuf-java>
     </properties>
 
     <dependencyManagement>

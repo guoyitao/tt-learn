@@ -1,13 +1,25 @@
 package bio;
 
+import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class BIOServer {
+
+    //线程安全map   <用户sessionId,用户session>
+    public static ConcurrentHashMap<String,Session> sessonMap = new ConcurrentHashMap<>();
+
+    //线程安全map   <群聊号<用户sessionId,用户session>>
+    public static ConcurrentHashMap<String, ConcurrentHashMap<String,Session>> roomMap = new ConcurrentHashMap<>();
+
+    public static final String commonRoom = "common"; //群聊房间
+
     public static void main(String[] args) throws IOException {
         ExecutorService executorService = Executors.newCachedThreadPool();
         ServerSocket serverSocket = new ServerSocket(6666);
@@ -29,17 +41,18 @@ public class BIOServer {
 
     private static void hander(Socket accept) {
         try {
-            InputStream inputStream = accept.getInputStream();
-            byte[] buffer = new byte[1024];
+            BufferedReader br = new BufferedReader(new InputStreamReader(accept.getInputStream()));
+            PrintWriter pw = new PrintWriter(accept.getOutputStream());
             while (true){
-                int read = inputStream.read(buffer);
-                if (read != -1){
-                    System.out.printf(new String(buffer,0,read));
-                }else {
-                    break;
+                try {
+                    String data = br.readLine();
+                    System.out.println("接受到消息：" + data);
+                    pw.println("收到client");
+                    pw.flush();
+                } catch (IOException ex) {
+                    throw ex;
                 }
             }
-
         } catch (IOException e) {
             e.printStackTrace();
         }finally {

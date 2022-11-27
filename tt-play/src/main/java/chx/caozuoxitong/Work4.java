@@ -50,7 +50,8 @@ public class Work4 {
                 return;
             }
             process.time -= m;
-            if (process.time == 0){ //运行完了就删除这个进程
+            System.out.printf("[%s]",process.name);
+            if (process.time <= 0){ //运行完了就删除这个进程
                 processes.remove(index);
             }else{
                 index++;

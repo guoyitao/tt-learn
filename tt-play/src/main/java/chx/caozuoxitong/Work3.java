@@ -1,9 +1,6 @@
 package chx.caozuoxitong;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * 题目3：进程调度3
@@ -23,54 +20,61 @@ import java.util.Scanner;
  */
 public class Work3 {
     public static void main(String[] args) {
-        List<Process> processes = new ArrayList<>();
-        int runTime = 0; //开始时间
+        TreeSet<Process> processes = new TreeSet<>();
         Scanner scanner = new Scanner(System.in);
         int count = Integer.parseInt(scanner.nextLine());
-        for (int i = 0; i < count; i++) {
+        for (int i = count; i > 0; i--) {
             Process process = new Process();
-            processes.add(process);
             String s = scanner.nextLine();
             String[] items =  s.split(" ");
             process.name = items[0];
             process.priority = Integer.parseInt(items[1]);
             process.time = Integer.parseInt(items[2]);
+            process.index = i;
+            processes.add(process);
         }
-        processes.sort(new Comparator<Process>() {
-            @Override
-            public int compare(Process o1, Process o2) {
-                int i = -o1.priority.compareTo(o2.priority); //按照优先级排序
-                if (i == 0){
-                    i = o1.name.compareTo(o2.name); //按照输入顺序排
-                }
-                return i ;
-            }
-        });
 
         for (;  processes.size() != 0; ) {
-            Process remove = processes.get(0);
+            Process remove = processes.pollFirst();//取出第一个
             remove.time--;
             remove.priority--;
-            if (remove.time == 0){//这个进程运行完毕
-                processes.remove(0);
+            if (remove.time != 0){//这个进程运行没完毕就放回去
+                processes.add(remove);
             }
             System.out.print(remove.name + " ");
-            processes.sort(new Comparator<Process>() {
-                @Override
-                public int compare(Process o1, Process o2) {
-                    int i = -o1.priority.compareTo(o2.priority); //按照优先级排序
-                    if (i == 0){
-                        i = o1.name.compareTo(o2.name); //按照输入顺序排
-                    }
-                    return i ;
-                }
-            });
+
         }
     }
 
-    public static class Process{
+    public static class Process implements Comparable<Process>{
         String name;
         Integer priority;
         Integer time;
+
+        Integer index;
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (!(o instanceof Process)) return false;
+
+            Process process = (Process) o;
+
+            return name.equals(process.name);
+        }
+
+        @Override
+        public int hashCode() {
+            return name.hashCode();
+        }
+
+        @Override
+        public int compareTo(Process o) {
+            int i = -this.priority.compareTo(o.priority); //按照优先级排序
+            if (i == 0){
+                i = -this.index.compareTo(o.index); //按照输入顺序排
+            }
+            return i ;
+        }
     }
 }

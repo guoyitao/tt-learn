@@ -15,6 +15,7 @@
         <module>tt-learn-netty</module>
         <module>tt-play</module>
         <module>tt-learn-kotlin</module>
+        <module>xianyu</module>
     </modules>
 
     <properties>

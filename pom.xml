@@ -16,6 +16,7 @@
         <module>tt-play</module>
         <module>tt-learn-kotlin</module>
         <module>xianyu</module>
+        <module>tt-image</module>
     </modules>
 
     <properties>

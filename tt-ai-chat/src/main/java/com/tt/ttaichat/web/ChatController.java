@@ -20,7 +20,7 @@ public class ChatController {
         Proxy proxy = Proxys.http("127.0.0.1", 10808);
 
         ChatGPTStream chatGPTStream = ChatGPTStream.builder()
-                                             .apiKey("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")
+                                             .apiKey("")
                                              .proxy(proxy)
                                              .timeout(900)
                                              .apiHost("https://api.openai.com/") //反向代理地址
@@ -28,7 +28,7 @@ public class ChatController {
                                              .init();
 
         Message system = Message.ofSystem("你现在是一个诗人，专门写七言绝句");
-        Message message = Message.of("写一段七言绝句诗，题目是：火锅！");
+        Message message = Message.of("写一段七言绝句诗，题目是：肌肉！");
         ConsoleStreamListener listener = new ConsoleStreamListener(){
             @Override
             public void onMsg(String message) {

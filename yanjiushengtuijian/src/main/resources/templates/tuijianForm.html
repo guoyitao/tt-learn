@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<!-- 网页使用的语言 -->
+<html lang="zh-CN">
+<head>
+    <!-- 指定字符集 -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>推介查询</title>
+    <link rel="stylesheet" href="./statics/css/proList.css">
+    <link rel="stylesheet" href="./statics/css/public.css">
+    <link rel="stylesheet" href="./statics/css/bootstrap.min.css">
+    <script src="./statics/libs/jquery.min.js"></script>
+    <script src="./statics/libs/vue.min.js"></script>
+    <script src="./statics/libs/bootstrap.min.js"></script>
+    <script src="./statics/libs/axios.min.js"></script>
+</head>
+<body>
+
+<div class="container" style="width: 70%;">
+    <h1 style="text-align: center;">详细学校推荐</h1>
+    <div class="col-md-15 col-md-offset-1">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="javascript:history.back(-1)" id="Next">返回</a></li>
+        </ul>
+    </div>
+<!--    表单提交-->
+    <form action="/detailTuijian" method="get">
+        <div class="form-group row">
+            <label for="yuanXiaoShuDiSheng">省：
+                <input type="text" class="form-control" id="yuanXiaoShuDiSheng" name="yuanXiaoShuDiSheng"
+                       placeholder="请输入省名"/>
+            </label>
+
+            <label for="yuanXiaoShuDiShi">市：
+                <input type="text" class="form-control" id="yuanXiaoShuDiShi" name="yuanXiaoShuDiShi"
+                       placeholder="请输入市名"/>
+            </label>
+
+            <label for="nameOfMajor">专业名称：
+                <input type="text" class="form-control" id="nameOfMajor" name="nameOfMajor"
+                       placeholder="请输入专业名称"/>
+            </label>
+        </div>
+
+        <div class="form-group row">
+            <label for="disciplinaryPower">学科实力：
+                <input type="text" class="form-control" id="disciplinaryPower" name="disciplinaryPower"
+                       placeholder="请输入学科实力"/>
+            </label>
+
+            <label for="typesOfMaster">硕士类型：
+                <input type="text" class="form-control" id="typesOfMaster" name="typesOfMaster" placeholder="请输入硕士类型"/>
+            </label>
+
+        </div>
+
+        <!--        <div class="form-group">-->
+        <!--            <label for="politics">政治：</label>-->
+        <!--            <input type="text" class="form-control" id="politics" name="politics" placeholder="请输入分数"/>-->
+        <!--        </div>-->
+        <div class="form-group row">
+            <label>初试科目
+
+                <label for="math">数学：
+                    <input type="text" class="form-control" id="math" name="math" placeholder="请输入数学科目"/>
+                </label>
+
+                <label for="english">英语：
+                    <input type="text" class="form-control" id="english" name="english" placeholder="请输入英语科目"/>
+                </label>
+
+                <label for="professionalCourses">专业课：
+                    <input type="text" class="form-control" id="professionalCourses" name="professionalCourses"
+                           placeholder="请输入专业课科目"/>
+                </label>
+            </label>
+        </div>
+        <div class="form-group row">
+            <label>
+                初试分数
+                <label for="avgMath">数学：
+                    <input type="text" class="form-control" id="avgMath" name="avgMath" placeholder="请输入数学分数"/>
+                </label>
+
+                <label for="avgEnglish">英语：
+                    <input type="text" class="form-control" id="avgEnglish" name="avgEnglish" placeholder="请输入英语分数"/>
+                </label>
+
+                <label for="avgProfessionalCourses">专业课：
+                    <input type="text" class="form-control" id="avgProfessionalCourses" name="avgProfessionalCourses"
+                           placeholder="请输入专业课分数"/>
+                </label>
+
+                <label for="avgPolitics">政治：
+                    <input type="text" class="form-control" id="avgPolitics" name="avgPolitics" placeholder="请输入政治分数"/>
+                </label>
+            </label>
+        </div>
+        <div class="form-group row">
+
+<!--            <label for="plan">招生计划：-->
+<!--                <select name="zhaoshengCompareType" id="plan" class="form-control">-->
+<!--                    <option value="xiaoyudengyu"><=</option>-->
+<!--                    <option value="dayudengyu">>=</option>-->
+<!--                    <option value="dengyu">==</option>-->
+<!--                </select>-->
+<!--            </label>-->
+<!--            <label>-->
+<!--                <input type="text" class="form-control" name="plan" placeholder="请输入招生计划"/>-->
+<!--            </label>-->
+<!--            人-->
+
+            <label for="actual">实际录取人数：
+                <select name="shijiLuquCompareType" id="actual" class="form-control">
+                    <option value="dayudengyu">>=</option>
+                    <option value="xiaoyudengyu"><=</option>
+                    <option value="dengyu">==</option>
+                </select>
+            </label>
+            <label>
+                <input type="text" class="form-control" name="actual" placeholder="请输入实际录取人数"/>
+            </label>
+            人
+        </div>
+
+        <div class="form-group row">
+            <label for="baoLuBi">报录比大于：
+                <input type="text" id="baoLuBi" class="form-control" name="baoLuBi" placeholder="请输入报录比"/>
+            </label>
+
+            <label for="fuShiRenShu">复试人数大于：
+                <input type="text" id="fuShiRenShu" class="form-control" name="fuShiRenShu" placeholder="请输入复试人数"/>
+            </label>
+            人
+        </div>
+
+
+        <div class="form-group">
+            <label for="jinFuShiZongFenJunFen">进入复试总分均分：
+                <input type="text" id="jinFuShiZongFenJunFen" class="form-control" name="jinFuShiZongFenJunFen"
+                       placeholder="进入复试总分均分"/>
+            </label>
+<!--            <label for="jinFuShiDanKeQunFen">进入复试单科均分：-->
+<!--                <input type="text" id="jinFuShiDanKeQunFen" class="form-control" name="jinFuShiDanKeQunFen"-->
+<!--                       placeholder="进入复试单科均分"/>-->
+<!--            </label>-->
+        </div>
+
+        <div class="form-group row" style="text-align: center">
+            <input class="btn btn-primary" type="submit" value="查询"/>
+            <input class="btn btn-default" type="reset" value="重置"/>
+        </div>
+    </form>
+</div>
+</body>
+</html>

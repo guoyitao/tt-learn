@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.yanjiushengtuijian.mapper.AdminMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.yanjiushengtuijian.domain.Admin">
+            <id property="adminId" column="admin_id" jdbcType="BIGINT"/>
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="password" column="password" jdbcType="VARCHAR"/>
+            <result property="adminType" column="admin_type" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        admin_id,name,password,
+        admin_type
+    </sql>
+</mapper>

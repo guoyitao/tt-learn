@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>系统管理</title>
+    <link rel="stylesheet" href="./statics/css/proList.css">
+    <link rel="stylesheet" href="./statics/css/public.css">
+    <link rel="stylesheet" href="./statics/css/bootstrap.min.css">
+    <script src="./statics/libs/jquery.min.js"></script>
+    <script src="./statics/libs/vue.min.js"></script>
+    <script src="./statics/libs/bootstrap.min.js"></script>
+    <script src="./statics/libs/axios.min.js"></script>
+</head>
+
+<body>
+<div id="apppp">
+    <h1 class="text-center">
+        <a href="indexPage.html">计算机考研查询推荐系统</a>
+    </h1>
+    <div class="col-md-4 col-md-offset-2">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="javascript:history.back(-1)" id="Next" >返回</a></li>
+        </ul>
+    </div>
+    <h2 class="col-md-4" th:text="${title}"></h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-15 col-md-offset-1">
+                <form action="/getTuiJianHistory" method="get">
+                    <ul class="pagination">
+                        <li class="page-item"></li>
+                        <li class="page-item">
+<!--                   时间控件-->
+                            <input type="datetime-local" name="start" dataformatas="">
+                            <input type="datetime-local" name="end">
+                        </li>
+                        <li class="page-item">
+
+                        </li>
+                    </ul>
+                    <br>
+                    <input type="submit">
+                </form>
+            </div>
+            <div class="col-md-15 ">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th>学校类型</th>
+                        <th>学校</th>
+                        <th>地理位置省</th>
+                        <th>地理位置市</th>
+                        <th>学科实力</th>
+                        <th>学院</th>
+                        <th>专业名称</th>
+                        <th>硕士类型</th>
+                        <th>政治</th>
+
+                        <th>英语</th>
+                        <th>数学</th>
+
+                        <th>专业课</th>
+<!--                        <th>招生计划</th>-->
+                        <th>报考人数</th>
+                        <th>实际录取</th>
+                        <th>报录比</th>
+                        <th>复试人数</th>
+                        <th>进复试总分均分</th>
+                        <th>进复试单科均分</th>
+                        <th>拟录取人数</th>
+                        <th>拟录取均分</th>
+                        <th>复试相关</th>
+                        <th>备注</th>
+                        <th>外部地图</th>
+                    </tr>
+                    </thead>
+                    <tbody id="img-table">
+                    <tr v-for="(item,index) in dataList">
+                        <th>{{item.typeOfSchool}}</th>
+                        <th>{{item.school}}</th>
+                        <th>{{item.yuanXiaoShuDiSheng}}</th>
+                        <th>{{item.yuanXiaoShuDiShi}}</th>
+                        <th>{{item.disciplinaryPower}}</th>
+                        <th>{{item.xueYuan}}</th>
+                        <th>{{item.nameOfMajor}}</th>
+                        <th>{{item.typesOfMaster}}</th>
+                        <th>{{item.politics}}</th>
+
+                        <th>{{item.english}}</th>
+                        <th>{{item.math}}</th>
+
+                        <th>{{item.professionalCourses}}</th>
+<!--                        <th>{{item.plan}}</th>-->
+                        <th>{{item.baoKaoRenShu}}</th>
+                        <th>{{item.actual}}</th>
+                        <th>{{item.baoLuBi*100}}%</th>
+                        <th>{{item.fuShiRenShu}}</th>
+                        <th>{{item.jinFuShiZongFenJunFen}}</th>
+                        <th>{{item.jinFuShiDanKeQunFen}}</th>
+                        <th>{{item.niLuQuRenShu}}</th>
+                        <th>{{item.niLuQuJunFen}}</th>
+                        <th>{{item.fuShiXiangGuan}}</th>
+                        <th>{{item.remark}}</th>
+                        <th>
+                            <a target="_blank" :href="'https://ditu.amap.com/search?query='+item.school+'&city=330000&geoobj=119.213931|29.744804|121.630161|30.870345&zoom=9.71'">进入高德地图导航</a>
+                        </th>
+                    </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script th:inline="javascript">
+    var vm = new Vue({
+        el: '#apppp',
+        data: {
+            dataList: [[${data}]],
+            queryParams: {
+                page: 0
+            }
+        },
+        mounted: function () {
+            // this.getDataList()
+        },
+        watch: {
+            // queryParams: {
+            //     handler: function (new1, old) {
+            //         this.getDataList()
+            //     },
+            //     deep: true
+            // }
+        },
+        methods: {
+            // getDataList: function () {
+            //     const _this = this;
+            //     axios.get('user/list', {
+            //         params: _this.queryParams
+            //     }).then(
+            //         function (result) {
+            //             console.log(JSON.stringify(result.data.records))
+            //             _this.dataList = result.data;
+            //         }
+            //     );
+            // }
+        }
+    });
+</script>
+
+</html>

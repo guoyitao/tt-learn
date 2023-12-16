@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.yanjiushengtuijian.mapper.DataMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.yanjiushengtuijian.domain.Data">
+        <id property="dataId" column="data_id" jdbcType="BIGINT"/>
+        <result property="typeOfSchool" column="type_of_school" jdbcType="VARCHAR"/>
+        <result property="school" column="school" jdbcType="VARCHAR"/>
+        <result property="yuanXiaoShuDiSheng" column="yuan_xiao_shu_di_sheng" jdbcType="VARCHAR"/>
+        <result property="yuanXiaoShuDiShi" column="yuan_xiao_shu_di_shi" jdbcType="VARCHAR"/>
+
+        <result property="xueYuan" column="xue_yuan" jdbcType="VARCHAR"/>
+
+        <result property="nameOfMajor" column="name_of_major" jdbcType="VARCHAR"/>
+        <result property="disciplinaryPower" column="disciplinary_power" jdbcType="VARCHAR"/>
+        <result property="typesOfMaster" column="types_of_master" jdbcType="VARCHAR"/>
+        <result property="politics" column="politics" jdbcType="VARCHAR"/>
+        <result property="math" column="math" jdbcType="VARCHAR"/>
+        <result property="english" column="english" jdbcType="VARCHAR"/>
+        <result property="professionalCourses" column="professional_courses" jdbcType="VARCHAR"/>
+        <result property="plan" column="plan" jdbcType="DOUBLE"/>
+        <result property="baoKaoRenShu" column="bao_kao_ren_shu" jdbcType="DOUBLE"/>
+        <result property="actual" column="actual" jdbcType="DOUBLE"/>
+        <result property="baoLuBi" column="bao_lu_bi" jdbcType="DOUBLE"/>
+        <result property="fuShiRenShu" column="fu_shi_ren_shu" jdbcType="DOUBLE"/>
+
+        <result property="avgPolitics" column="avg_politics" jdbcType="DOUBLE"/>
+        <result property="avgMath" column="avg_math" jdbcType="DOUBLE"/>
+        <result property="avgEnglish" column="avg_english" jdbcType="DOUBLE"/>
+        <result property="avgProfessionalCourses" column="avg_professional_courses" jdbcType="DOUBLE"/>
+
+        <result property="jinFuShiZongFenJunFen" column="jin_fu_shi_zong_fen_jun_fen" jdbcType="DOUBLE"/>
+        <result property="jinFuShiDanKeQunFen" column="jin_fu_shi_dan_ke_qun_fen" jdbcType="VARCHAR"/>
+        <result property="niLuQuRenShu" column="ni_lu_qu_ren_shu" jdbcType="DOUBLE"/>
+        <result property="niLuQuJunFen" column="ni_lu_qu_jun_fen" jdbcType="DOUBLE"/>
+        <result property="fuShiXiangGuan" column="fu_shi_xiang_guan" jdbcType="VARCHAR"/>
+        <result property="remark" column="remark" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        data_id
+        ,type_of_school,school,
+        yuan_xiao_shu_di_sheng,yuan_xiao_shu_di_shi,name_of_major,xue_yuan,
+        disciplinary_power,types_of_master,politics,
+        avg_politics,avg_math,avg_english,avg_professional_courses,
+        math,english,professional_courses,
+        plan,bao_kao_ren_shu,actual,
+        bao_lu_bi,fu_shi_ren_shu,jin_fu_shi_zong_fen_jun_fen,
+        jin_fu_shi_dan_ke_qun_fen,ni_lu_qu_ren_shu,ni_lu_qu_jun_fen,
+        fu_shi_xiang_guan,remark
+    </sql>
+    <select id="systemTuijian" resultMap="BaseResultMap">
+        select * from t_data td
+        <where>
+            <if test="maybeScore != null and maybeScore != 0 and tuiJianParams.professionalCourses == '408'">
+                td.jin_fu_shi_zong_fen_jun_fen &lt;= #{maybeScore}
+            </if>
+            <if test="tuiJianParams.math != null and tuiJianParams.math != ''">
+                and td.math like CONCAT('%',#{tuiJianParams.math},'%')
+            </if>
+            <if test="tuiJianParams.english != null and tuiJianParams.english != ''">
+                and td.english like CONCAT('%',#{tuiJianParams.english},'%')
+            </if>
+            <if test="tuiJianParams.professionalCourses != null and tuiJianParams.professionalCourses != ''">
+                and td.professional_courses like CONCAT('%',#{tuiJianParams.professionalCourses},'%')
+            </if>
+
+            <if test="tuiJianParams.professionalCourses == '' and tuiJianParams.professionalCourses != '408'">
+                and (
+                (
+                td.type_of_school like CONCAT('%','211','%')
+                and td.jin_fu_shi_zong_fen_jun_fen &lt;= #{maybeScore211}
+                )
+                or
+                (
+                td.type_of_school like CONCAT('%','双一流','%')
+                and td.jin_fu_shi_zong_fen_jun_fen &lt;= #{maybeScoreShuangyiliu}
+                )
+                or
+                (
+                td.type_of_school like CONCAT('%','非','%')
+                and td.jin_fu_shi_zong_fen_jun_fen &lt;= #{maybeScoreFei}
+                )
+                )
+
+            </if>
+
+        </where>
+        # order by rand() LIMIT 4;
+    </select>
+
+    <select id="detailTuijian" resultMap="BaseResultMap">
+        select * from t_data td
+        <where>
+            <if test="tuiJianParams.yuanXiaoShuDiSheng != null and tuiJianParams.yuanXiaoShuDiSheng != ''">
+                and td.yuan_xiao_shu_di_sheng like CONCAT('%',#{tuiJianParams.yuanXiaoShuDiSheng},'%')
+            </if>
+            <if test="tuiJianParams.yuanXiaoShuDiShi != null and tuiJianParams.yuanXiaoShuDiShi != ''">
+                and td.yuan_xiao_shu_di_shi like CONCAT('%',#{tuiJianParams.yuanXiaoShuDiShi},'%')
+            </if>
+            <if test="tuiJianParams.nameOfMajor != null and tuiJianParams.nameOfMajor != ''">
+                and td.name_of_major like CONCAT('%',#{tuiJianParams.nameOfMajor},'%')
+            </if>
+            <if test="tuiJianParams.disciplinaryPower != null and tuiJianParams.disciplinaryPower != ''">
+                and td.disciplinary_power like CONCAT('%',#{tuiJianParams.disciplinaryPower},'%')
+            </if>
+            <if test="tuiJianParams.typesOfMaster != null and tuiJianParams.typesOfMaster != ''">
+                and td.types_of_master like CONCAT('%',#{tuiJianParams.typesOfMaster},'%')
+            </if>
+
+            <if test="tuiJianParams.math != null and tuiJianParams.math != ''">
+                and td.math like CONCAT('%',#{tuiJianParams.math},'%')
+            </if>
+            <if test="tuiJianParams.english != null and tuiJianParams.english != '' ">
+                and td.english like CONCAT('%',#{tuiJianParams.english},'%')
+            </if>
+            <if test="tuiJianParams.professionalCourses != null and tuiJianParams.professionalCourses != '' ">
+                and td.professional_courses like CONCAT('%',#{tuiJianParams.professionalCourses},'%')
+            </if>
+
+            <!--    <if test="tuiJianParams.zhaoshengCompareType != null and tuiJianParams.plan != null">-->
+            <!--        <if test="tuiJianParams.zhaoshengCompareType == 'xiaoyudengyu'">-->
+            <!--            and td.plan &lt;= #{tuiJianParams.plan}-->
+            <!--        </if>-->
+            <!--        <if test="tuiJianParams.zhaoshengCompareType == 'dayudengyu'">-->
+            <!--            and td.plan &gt;= #{tuiJianParams.plan}-->
+            <!--        </if>-->
+            <!--        <if test="tuiJianParams.zhaoshengCompareType == 'dengyu'">-->
+            <!--            and td.plan == #{tuiJianParams.plan}-->
+            <!--        </if>-->
+            <!--    </if>-->
+
+            <if test="tuiJianParams.shijiLuquCompareType != null and tuiJianParams.actual != null">
+                <if test="tuiJianParams.shijiLuquCompareType == 'xiaoyudengyu'">
+                    and td.actual &lt;= #{tuiJianParams.actual}
+                </if>
+                <if test="tuiJianParams.shijiLuquCompareType == 'dayudengyu'">
+                    and td.actual &gt;= #{tuiJianParams.actual}
+                </if>
+                <if test="tuiJianParams.shijiLuquCompareType == 'dengyu'">
+                    and td.actual = #{tuiJianParams.actual}
+                </if>
+            </if>
+
+            <if test="tuiJianParams.baoLuBi != null">
+                and td.bao_lu_bi &gt;= #{tuiJianParams.baoLuBi}
+            </if>
+
+            <if test="tuiJianParams.fuShiRenShu != null">
+                and td.fu_shi_ren_shu &gt;= #{tuiJianParams.fuShiRenShu}
+            </if>
+
+            <if test="tuiJianParams.jinFuShiZongFenJunFen != null">
+                and td.jin_fu_shi_zong_fen_jun_fen between #{tuiJianParams.jinFuShiZongFenJunFen0} and
+                #{tuiJianParams.jinFuShiZongFenJunFen1}
+            </if>
+
+            <if test="tuiJianParams.avgPolitics != null">
+                and td.avg_politics &lt;= #{tuiJianParams.avgPolitics}
+            </if>
+            <if test="tuiJianParams.avgMath != null">
+                and td.avg_math &lt; #{tuiJianParams.avgMath}
+            </if>
+            <if test="tuiJianParams.avgEnglish != null">
+                and td.avg_english &lt;= #{tuiJianParams.avgEnglish}
+            </if>
+            <if test="tuiJianParams.avgProfessionalCourses != null">
+                and td.avg_professional_courses &lt;= #{tuiJianParams.avgProfessionalCourses}
+            </if>
+            <if test="tuiJianParams.jinFuShiZongFenJunFen != null">
+                and td.jin_fu_shi_zong_fen_jun_fen &lt;= #{tuiJianParams.jinFuShiZongFenJunFen}
+            </if>
+        </where>
+        # order by rand() LIMIT 4;
+    </select>
+</mapper>

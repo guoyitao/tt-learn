@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>主页</title>
+    <link rel="stylesheet" href="./statics/css/proList.css">
+    <link rel="stylesheet" href="./statics/css/public.css">
+    <link rel="stylesheet" href="./statics/css/bootstrap.min.css">
+    <script src="./statics/libs/jquery.min.js"></script>
+    <script src="./statics/libs/vue.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+    <script src="./statics/libs/bootstrap.min.js"></script>
+    <script src="./statics/libs/axios.min.js"></script>
+
+
+</head>
+<body>
+<!-- 系统推荐弹窗框 -->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+
+            <!-- 模态框头部 -->
+            <div class="modal-header">
+                <h4 class="modal-title">预想考试科目</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+<!--            表单提交-->
+            <form action="systemTuijian" id="systemTuijianForm">
+                <!-- 模态框主体 -->
+                <div class="modal-body">
+                    <div class="form-group row">
+                        <label for="politicsScore">政治分数：
+                            <input type="number" class="form-control" id="politicsScore" name="politicsScore"
+                                   placeholder="请输入政治分数" required/>
+                        </label>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="math">数学：
+                            <input type="text" class="form-control" id="math" name="math"
+                                   placeholder="请输入数学科目" required/>
+                        </label>
+                        <label for="mathScore">数学分数：
+                            <input type="number" class="form-control" id="mathScore" name="mathScore"
+                                   placeholder="请输入数学分数" required/>
+                        </label>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="english">英语：
+                            <input type="text" class="form-control" id="english" name="english"
+                                   placeholder="请输入英语科目" required/>
+                        </label>
+                        <label for="englishScore">英语分数：
+                            <input type="number" class="form-control" id="englishScore" name="englishScore"
+                                   placeholder="请输入英语分数" required/>
+                        </label>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="professionalCourses">专业课：
+                            <input type="text" class="form-control" id="professionalCourses" name="professionalCourses"
+                                   placeholder="请输入专业课科目" required/>
+                        </label>
+                        <label for="professionalCoursesScore">专业课分数：
+                            <input type="number" class="form-control" id="professionalCoursesScore" name="professionalCoursesScore"
+                                   placeholder="请输入专业课分数" required/>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- 模态框底部 -->
+                <div class="modal-footer">
+                    <button type="submit"
+                            class="btn btn-secondary"
+                            data-dismiss="modal"
+                            onclick="document.getElementById('systemTuijianForm').submit()"
+                    >
+                        提交
+                    </button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">关闭</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+
+<div id="apppp">
+    <!------------------------------head------------------------------>
+    <div class="head ding">
+        <div class="wrapper clearfix">
+            <div id="top">
+                <h2 class="fl">
+                    计算机考研查询推荐系统
+                    <a href="indexPage.html">-搜学校</a>
+                    <a href="#" data-toggle="modal" data-target="#myModal">-系统推荐</a>
+                    <!--                    <div id="xitongtuijianForm" class="collapse" style="z-index: 10">-->
+                    <!--                        <form action="systemTuijian">-->
+                    <!--                        数学：<input type="text">分数 <input type="number" > <br>-->
+                    <!--                        英语：<input type="text">分数 <input type="number"><br>-->
+                    <!--                        专业课：<input type="text">分数 <input type="number"> <br>-->
+                    <!--                            <input type="submit" value="提交">-->
+                    <!--                        </form>-->
+                    <!--                    </div>-->
+
+                    <a href="tuijianForm.html">-详细学校推荐</a>
+                    <a href="getTuiJianHistory">-推荐历史</a>
+                </h2>
+
+                <div class="fr clearfix" id="top1">
+                    <a href="#" th:if="${session.user != null}">
+                        <button type="button" class="btn-success" th:text="'欢迎用户:'+${session.user.userName}"></button>
+                    </a>
+                    <a th:if="${session.user == null}" href="login.html">
+                        <button type="button" class="btn btn-secondary">登录</button>
+                    </a>
+                    <a href="register.html">
+                        <button type="button" class="btn btn-primary">注册</button>
+                    </a>
+
+                    <p class="fl">
+                        <a href="login.html" id="login">登录</a>
+                        <a href="register.html" id="reg">注册</a>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------搜索列表------------------------------>
+    <div class="schBox">
+        <div class="container mt-3">
+            <div>
+                <label for="demo">请直接搜学校</label>
+                <div class="form-inline row">
+                    <input type="text" class="form-control" placeholder="请直接搜学校" id="demo" v-model="queryParams.school">
+                    <button type="button" class="btn btn-primary" v-on:click="getDataList()">搜索</button>
+                </div>
+            </div>
+        </div>
+        <h1 class="text-center">按类别搜索</h1>
+        <div class="container-fluid">
+            <!--            选择了院校属地才能选择学校名称，选择了学校名称才能选择专业名称-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-3 "></div>
+                    <div class="col-md-6 offset-md-4 bg-warning">
+                        <div class="form-group" style="float: left;">
+                            <label for="sel1">院校属地:</label>
+                                                                                        <!--           点击选择省                 -->
+                            <select class="form-control" style="width: 300px" id="sel1" @click.self="getShengs($event)">
+                                <option value="">--选择省--</option>
+                                <option v-for="item in shengs" :key="item">
+                                    {{item}}
+                                </option>
+                            </select>
+                        </div>
+                        <div class="form-group" style="float: left;">
+                            <label for="sel2">学校名称:</label>
+                            <select class="form-control" style="width: 300px" id="sel2"
+                                    @click.self="getSchools($event)">
+                                <option value="">--选择学校--</option>
+                                <option v-for="item in schools" :key="item">
+                                    {{item}}
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 ">.</div>
+                    <div class="col-md-6 offset-md-4 bg-warning">
+                        <div class="form-group" style="float: left;">
+                            <label for="sel3">专业名称:</label>
+                            <select class="form-control" style="width: 300px" id="sel3"
+                                    @click.self="getNameOfMajors($event)">
+                                <option value="">--选择专业--</option>
+                                <option v-for="item in nameOfMajors" :key="item">
+                                    {{item}}
+                                </option>
+                            </select>
+                        </div>
+                        <div class="form-group" style="float: left;">
+                            <label for="sel4">硕士类型:</label>
+                            <select class="form-control" style="width: 300px" id="sel4"
+                                    @click.self="getTypesOfMaster($event)">
+                                <option value="">--硕士类型--</option>
+                                <option v-for="item in typesOfMasters" :key="item">
+                                    {{item}}
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------current---------------------->
+    <div class="current">
+        <div class="wrapper clearfix">
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="#" v-on:click="queryParams.page--">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#" v-on:click="queryParams.page++">Next</a></li>
+            </ul>
+            <div class="fr choice">
+                <p class="default" v-on:click="isShowSortLisr = !isShowSortLisr">排序方式</p>
+                <ul class="select" v-show="isShowSortLisr">
+                    <li>按照报录比排序</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!----------------proList------------------------->
+    <div class="col-md-15 col-md-offset-1">
+        <table class="table">
+            <thead>
+            <tr>
+                <th>学校类型</th>
+                <th>学校</th>
+                <th>地理位置省</th>
+                <th>地理位置市</th>
+                <th>学科实力</th>
+                <th>学院</th>
+                <th>专业名称</th>
+                <th>硕士类型</th>
+                <th>政治</th>
+
+                <th>英语</th>
+                <th>数学</th>
+
+                <th>专业课</th>
+<!--                <th>招生计划</th>-->
+                <th>报考人数</th>
+                <th>实际录取</th>
+                <th>报录比</th>
+                <th>复试人数</th>
+                <th>进复试总分均分</th>
+                <th>进复试单科均分</th>
+                <th>拟录取人数</th>
+                <th>拟录取均分</th>
+                <th>复试相关</th>
+                <th>备注</th>
+                <th>外部地图</th>
+            </tr>
+            </thead>
+            <tbody id="img-table">
+            <tr v-for="item in dataList">
+                <th>{{item.typeOfSchool}}</th>
+                <th>{{item.school}}</th>
+                <th>{{item.yuanXiaoShuDiSheng}}</th>
+                <th>{{item.yuanXiaoShuDiShi}}</th>
+                <th>{{item.disciplinaryPower}}</th>
+                <th>{{item.xueYuan}}</th>
+                <th>{{item.nameOfMajor}}</th>
+                <th>{{item.typesOfMaster}}</th>
+                <th>{{item.politics}}</th>
+
+                <th>{{item.english}}</th>
+                <th>{{item.math}}</th>
+
+                <th>{{item.professionalCourses}}</th>
+<!--                <th>{{item.plan}}</th>-->
+                <th>{{item.baoKaoRenShu}}</th>
+                <th>{{item.actual}}</th>
+                <th>{{item.baoLuBi*100}}%</th>
+                <th>{{item.fuShiRenShu}}</th>
+                <th>{{item.jinFuShiZongFenJunFen}}</th>
+                <th>{{item.jinFuShiDanKeQunFen}}</th>
+                <th>{{item.niLuQuRenShu}}</th>
+                <th>{{item.niLuQuJunFen}}</th>
+                <th>{{item.fuShiXiangGuan}}</th>
+                <th>{{item.remark}}</th>
+                <th>
+                    <a target="_blank" :href="'https://ditu.amap.com/search?query='+item.school+'&city=330000&geoobj=119.213931|29.744804|121.630161|30.870345&zoom=9.71'">进入高德地图导航</a>
+                </th>
+            </tr>
+
+            </tbody>
+        </table>
+    </div>
+    <!----------------mask------------------->
+    <!--返回顶部-->
+<!--    <div class="gotop">-->
+<!--        <h1 style="background-color: pink">-->
+<!--            goto <br>-->
+<!--            推 <br>-->
+<!--            荐 <br>-->
+<!--            系 <br>-->
+<!--            统</h1>-->
+<!--    </div>-->
+<!--    <div class="msk"></div>-->
+</div>
+<script type="text/javascript">
+    var vm = new Vue({
+        el: '#apppp',
+        data: {
+            shengs: [],
+            schools: [],
+            nameOfMajors: [],
+            typesOfMasters: [],
+
+            userName: '',
+            isShowSortLisr: false,
+            queryParams: {
+                page: 1,
+                yuanXiaoShuDiSheng: null,
+                nameOfMajor: null,
+                school: null,
+                typesOfMaster: null,
+            },
+            queryData: {
+                "nameOfMajors": [
+                    "计算机科学与技术1111",
+                    "电子信息1111"
+                ],
+                "typeOfSchools": [
+                    "211"
+                ],
+                "yuanXiaoShuDiShengs": [
+                    "四川省"
+                ]
+            },
+            dataList: []
+        },
+        mounted: function () {
+            this.getDataList()
+        },
+        watch: {
+            queryParams: {
+                handler: function (new1, old) {
+                    this.getDataList()
+                },
+                deep: true
+            }
+        },
+        methods: {
+            // 查询学校和信息列表
+            getDataList: function () {
+                const _this = this;
+                axios.get('getDataList', {
+                    params: _this.queryParams
+                }).then(
+                    function (result) {
+                        //成功的回调
+                        console.log(JSON.stringify(result.data.records))
+                        _this.dataList = result.data.records;
+                    }
+                );
+            },
+            getShengs: function (event) {
+                const _this = this;
+                axios.get('getShengs').then(
+                    function (result) {
+                        _this.shengs = result.data;
+                    }
+                );
+                //设置当前选择的省
+                _this.queryParams.yuanXiaoShuDiSheng = event.target.value;
+            },
+            getSchools: function (event) {
+                const _this = this;
+                axios.get('getSchools?yuanXiaoShuDiSheng=' + _this.queryParams.yuanXiaoShuDiSheng).then(
+                    function (result) {
+                        _this.schools = result.data;
+                    }
+                );
+                //设置当前选择的学校
+                _this.queryParams.school = event.target.value;
+            },
+            getNameOfMajors: function (event) {
+                const _this = this;
+                axios.get('getNameOfMajors?school=' + _this.queryParams.school).then(
+                    function (result) {
+                        _this.nameOfMajors = result.data;
+                    }
+                );
+                //设置当前选择的专业名称
+                _this.queryParams.nameOfMajor = event.target.value;
+            },
+            getTypesOfMaster: function (event) {
+                const _this = this;
+                axios.get('getTypesOfMaster?nameOfMajor=' + _this.queryParams.nameOfMajor).then(
+                    function (result) {
+                        _this.typesOfMasters = result.data;
+                    }
+                );
+                //设置当前选择的硕士类型
+                _this.queryParams.typesOfMaster = event.target.value;
+            }
+        }
+    });
+</script>
+</body>
+</html>

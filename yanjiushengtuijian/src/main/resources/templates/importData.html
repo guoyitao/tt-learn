@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>考研信息数据导入</title>
+    <link rel="stylesheet" href="./statics/css/proList.css">
+    <link rel="stylesheet" href="./statics/css/public.css">
+    <link rel="stylesheet" href="./statics/css/bootstrap.min.css">
+    <script src="./statics/libs/jquery.min.js"></script>
+    <script src="./statics/libs/vue.min.js"></script>
+    <script src="./statics/libs/bootstrap.min.js"></script>
+    <script src="./statics/libs/axios.min.js"></script>
+</head>
+<body>
+<h1>考研信息数据导入</h1>
+<div class="col-md-10 col-md-offset-1">
+<!--    表单提交-->
+    <form action="/importOneData" method="post">
+        <table class="table">
+            <thead>
+            <tr>
+                <th th:text="${msg}"></th>
+            </tr>
+            </thead>
+            <tbody id="img-table">
+            <tr>
+                <th>学校类型:<input class="form-control" type="text" name="typeOfSchool"></th>
+            </tr>
+            <tr>
+                <th>学校名称:<input class="form-control" type="text" name="school"></th>
+            </tr>
+            <tr>
+                <th>地理位置省:<input class="form-control" type="text" name="yuanXiaoShuDiSheng"></th>
+            </tr>
+            <tr>
+                <th>地理位置市:<input class="form-control" type="text" name="yuanXiaoShuDiShi"></th>
+            </tr>
+            <tr>
+                <th>学科实力:<input class="form-control" type="text" name="disciplinaryPower"></th>
+            </tr>
+            <tr>
+                <th>学院:<input class="form-control" type="text" name="item.xueYuan"></th>
+            </tr>
+            <tr>
+                <th>专业名称:<input class="form-control" type="text" name="nameOfMajor"></th>
+            </tr>
+            <tr>
+                <th>硕士类型:<input class="form-control" type="text" name="typesOfMaster"></th>
+            </tr>
+
+            <tr>
+                <th>政治:<input class="form-control" type="text" name="politics"></th>
+            </tr>
+            <tr>
+                <th>数学:<input class="form-control" type="text" name="math"></th>
+            </tr>
+            <tr>
+                <th>英语:<input class="form-control" type="text" name="english"></th>
+            </tr>
+            <tr>
+                <th>专业课:<input class="form-control" type="text" name="professionalCourses"></th>
+            </tr>
+
+            <tr>
+                <th>进复试政治均分:<input class="form-control" type="number" name="avgPolitics"></th>
+            </tr>
+            <tr>
+                <th>进复试英语均分:<input class="form-control" type="number" name="avgEnglish"></th>
+            </tr>
+            <tr>
+                <th>进复试数学均分:<input class="form-control" type="number" name="avgMath"></th>
+            </tr>
+            <tr>
+                <th>进复试专业课均分:<input class="form-control" type="number" name="avgProfessionalCourses"></th>
+            </tr>
+
+            <tr>
+                <th>招生计划:<input class="form-control" type="number" name="plan"></th>
+            </tr>
+            <tr>
+                <th>报考人数:<input class="form-control" type="number" name="baoKaoRenShu"></th>
+            </tr>
+            <tr>
+                <th>实际录取:<input  class="form-control" type="number" name="actual"></th>
+            </tr>
+            <tr>
+                <th>报录比:<input class="form-control" type="text" name="baoLuBi"></th>
+            </tr>
+            <tr>
+                <th>复试人数:<input class="form-control" type="number" name="fuShiRenShu"></th>
+            </tr>
+            <tr>
+                <th>进复试总分均分:<input class="form-control" type="number" name="jinFuShiZongFenJunFen"></th>
+            </tr>
+<!--            <tr>-->
+<!--                <th>进复试单科均分:<input class="form-control" type="text" name="jinFuShiDanKeQunFen"></th>-->
+<!--            </tr>-->
+            <tr>
+                <th>拟录取人数:<input class="form-control" type="number" name="niLuQuRenShu"></th>
+            </tr>
+            <tr>
+                <th>拟录取均分:<input class="form-control" type="number" name="niLuQuJunFen"></th>
+            </tr>
+            <tr>
+                <th>复试相关:<input class="form-control" type="text" name="fuShiXiangGuan"></th>
+            </tr>
+            <tr>
+                <th>备注:<input class="form-control" type="text" name="remark"></th>
+            </tr>
+            <tr>
+                <th>
+                    <input class="btn btn-primary" type="submit" value="提交">
+                    <input class="btn btn-warning" type="reset" value="重置">
+                </th>
+            </tr>
+
+            </tbody>
+        </table>
+    </form>
+</div>
+</body>
+</html>

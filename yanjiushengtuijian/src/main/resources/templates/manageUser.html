@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>系统管理</title>
+    <link rel="stylesheet" href="./statics/css/proList.css">
+    <link rel="stylesheet" href="./statics/css/public.css">
+    <link rel="stylesheet" href="./statics/css/bootstrap.min.css">
+    <script src="./statics/libs/jquery.min.js"></script>
+    <script src="./statics/libs/vue.min.js"></script>
+    <script src="./statics/libs/bootstrap.min.js"></script>
+    <script src="./statics/libs/axios.min.js"></script>
+</head>
+
+<body>
+<div id="apppp">
+    <h1 class="text-center">系统管理</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#" id="Previous" v-on:click="queryParams.page--">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="#" id="Next" v-on:click="queryParams.page++">Next</a></li>
+                </ul>
+            </div>
+            <div class="col-md-10 col-md-offset-1">
+                <table class="table">
+                    <h1 class="text-center">用户管理</h1>
+                    <thead>
+                    <tr>
+                        <th>no.</th>
+                        <th>用户名</th>
+                        <th>用户密码</th>
+                        <th>手机</th>
+                        <th>年龄</th>
+                        <th>学校</th>
+<!--                        <th>操作</th>-->
+                    </tr>
+                    </thead>
+                    <tbody id="img-table">
+                    <tr v-for="(item,index) in dataList">
+                        <th>{{index}}</th>
+                        <th>{{item.userName}}</th>
+                        <th>{{item.password}}</th>
+                        <th>{{item.phone}}</th>
+                        <th>{{item.age}}</th>
+                        <th>{{item.school}}</th>
+<!--                        <th><a href="#">删除</a>|<a href="#">修改</a></th>-->
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+    var vm = new Vue({
+        el: '#apppp',
+        data: {
+            dataList: [],
+            queryParams:{
+                page: 1
+            }
+        },
+
+        watch: {
+            queryParams: {
+                handler: function (new1, old) {
+                    this.getDataList()
+                },
+                deep: true
+            }
+        },
+        mounted: function () {
+            this.getDataList()
+        },
+        methods: {
+            getDataList: function () {
+                const _this = this;
+                //异步查询用户列表
+                axios.get('user/list', {
+                    params: _this.queryParams
+                }).then(
+                    function (result) {
+                        console.log(JSON.stringify(result.data.records))
+                        _this.dataList = result.data;
+                    }
+                );
+            }
+        }
+    });
+</script>
+
+</html>

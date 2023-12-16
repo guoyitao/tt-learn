@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.yanjiushengtuijian.mapper.TuijianMapper">
+
+    <resultMap id="BaseResultMap" type="com.example.yanjiushengtuijian.domain.Tuijian">
+            <id property="tuijianId" column="tuijian_id" jdbcType="BIGINT"/>
+            <result property="inputData" column="input_data" jdbcType="VARCHAR"/>
+            <result property="userId" column="user_id" jdbcType="BIGINT"/>
+            <result property="dataId" column="data_id" jdbcType="BIGINT"/>
+            <result property="createDate" column="create_date" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        tuijian_id,input_data,user_id,
+        data_id,create_date
+    </sql>
+    <select id="selectListByDate" resultMap="BaseResultMap">
+        select * from t_tuijian tt
+        where
+        user_id = #{user.userId}
+        <if test="start!=null and end!=null">
+            and create_date BETWEEN #{start,jdbcType=TIMESTAMP} and #{end,jdbcType=TIMESTAMP}
+        </if>
+
+    </select>
+</mapper>

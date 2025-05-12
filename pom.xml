@@ -14,13 +14,14 @@
         <module>tt-learn-suanfa</module>
         <module>tt-learn-netty</module>
         <module>tt-play</module>
+        <module>tt-learn-opencv</module>
         <module>tt-learn-kotlin</module>
         <module>xianyu</module>
         <module>tt-image</module>
     </modules>
 
     <properties>
-        <lombok.version>1.16.20</lombok.version>
+        <lombok.version>1.18.10</lombok.version>
         <netty.version>4.1.51.Final</netty.version>
         <protobuf-java-util>3.7.0</protobuf-java-util>
         <protobuf-java>3.7.0</protobuf-java>
@@ -82,6 +83,12 @@
                 <groupId>org.apache.poi</groupId>
                 <artifactId>poi-ooxml</artifactId>
                 <version>3.17</version>
+            </dependency>
+
+            <dependency>
+                <groupId>net.sf.json-lib</groupId>
+                <artifactId>json-lib</artifactId>
+                <version>2.2.3</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

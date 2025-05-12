@@ -1,7 +1,5 @@
 package com.chx;
 
-import java.util.ArrayList;
-
 /**
  * @description://TODO
  * @author: Luck_chen
@@ -10,8 +8,7 @@ import java.util.ArrayList;
  */
 public class Main {
     public static void main(String[] args) {
-        ArrayList<Long> ids = new ArrayList<>();
-        long count = ids.stream().distinct().count();
-        System.out.println(count);
+        String s = "";
+//        s.char
     }
 }

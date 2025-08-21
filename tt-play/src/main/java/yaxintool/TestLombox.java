@@ -4,14 +4,17 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 
 public class TestLombox {
     public static void main(String[] args) throws JsonProcessingException {
-        System.out.println(isValidDecimal("0"));       // true
-        System.out.println(isValidDecimal("0.99"));    // true
-        System.out.println(isValidDecimal("1.00"));    // true
-        System.out.println(isValidDecimal(".5"));      // true
-        System.out.println(isValidDecimal("1.01"));    // false（小数部分非零）
-        System.out.println(isValidDecimal("0.123"));   // false（超过两位小数）
-        System.out.println(isValidDecimal("-0.5"));    // false（负数）
-        System.out.println(isValidDecimal("2.5"));     // false（超过1）
+        double balance = 11999;
+        balance = balance / 60 + (balance % 60 == 0 ? 0 : 1);
+        System.out.println(balance);
+//        System.out.println(isValidDecimal("0"));       // true
+//        System.out.println(isValidDecimal("0.99"));    // true
+//        System.out.println(isValidDecimal("1.00"));    // true
+//        System.out.println(isValidDecimal(".5"));      // true
+//        System.out.println(isValidDecimal("1.01"));    // false（小数部分非零）
+//        System.out.println(isValidDecimal("0.123"));   // false（超过两位小数）
+//        System.out.println(isValidDecimal("-0.5"));    // false（负数）
+//        System.out.println(isValidDecimal("2.5"));     // false（超过1）
     }
 
     public static boolean isValidDecimal(String input) {
